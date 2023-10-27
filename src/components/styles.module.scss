@@ -1,0 +1,36 @@
+/* styles.module.scss */
+.tl-control {
+  margin-bottom: 30px;
+}
+
+.box {
+  height: 500px;
+  width: 400px;
+  position: relative;
+  overflow: hidden;
+
+  img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .uncover {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+    .uncover_slice {
+      height: 100%;
+      flex-grow: 1;
+      background: #ffffff;
+    }
+  }
+}
+
+.fill {
+  object-fit: cover;
+}
