@@ -6,7 +6,21 @@ export default function TextAnimation() {
     <div>
       <div className="section">
         <div className="wrapper">
-          <div className="citebox js-karaoke">
+          <div className="homeSec3">
+            <p>
+              PUSH&PULL NICHE INCLUDES THE QUALITY <br />
+              SERVICES WE PUSH THAT PULL CUSTOMERS <br />
+              TOWARDS US ARE
+            </p>
+            <p>
+              We offer a wide range of digital marketing services to help
+              businesses of all sizes achieve their growth objectives. Our
+              services are designed to be flexible,customizable, and scalable to
+              meet your unique needs and budget
+            </p>
+          </div>
+
+          {/* <div className="citebox js-karaoke">
             <div className="citebox-content js-karaoke-content">
               <span>PUSH&PULL NICHE INCLUDES THE QUALITY </span>
               <br />
@@ -54,7 +68,7 @@ export default function TextAnimation() {
                 TOWARDS US ARE{" "}
               </motion.span>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

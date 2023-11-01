@@ -16,8 +16,6 @@ const InfluencerMarketing = () => {
         style={{
           paddingTop: "8rem",
           fontFamily: "Helvetica",
-          borderBottomLeftRadius: "125px",
-          borderBottomRightRadius: "125px",
         }}
         className="relative z-10 bg-white pb-16"
         id="influencerMarketing"
@@ -28,14 +26,14 @@ const InfluencerMarketing = () => {
           </p>
           <div className="flex justify-center  mt-6 mb-2">
             <div className="bg-black text-white px-6 py-2 flex">
-              {/* <marquee behavior="scroll" direction="right">
+              <marquee behavior="scroll" direction="left">
                 Utilise Influencer Marketing to Expand Your Business and Get
                 Noticed!
-              </marquee> */}
-              <p className="m-0">
+              </marquee>
+              {/* <p className="m-0">
                 Content That Captivate, Impress and Inspire. Let Us Help You
                 Create Your Next Masterpiece
-              </p>
+              </p> */}
             </div>
           </div>
           <p className=" mb-4 text-center mt-16">

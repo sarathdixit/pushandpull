@@ -16,8 +16,6 @@ const InfluencerMarketing = () => {
         style={{
           paddingTop: "8rem",
           fontFamily: "Helvetica",
-          borderBottomLeftRadius: "125px",
-          borderBottomRightRadius: "125px",
         }}
         className="relative z-10 bg-white pb-16"
         id="influencerMarketing"

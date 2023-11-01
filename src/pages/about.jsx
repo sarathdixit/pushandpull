@@ -17,8 +17,6 @@ const About = () => {
         style={{
           paddingTop: "8rem",
           fontFamily: "Helvetica",
-          borderBottomLeftRadius: "125px",
-          borderBottomRightRadius: "125px",
         }}
         className="relative z-10 bg-white"
       >
@@ -35,7 +33,7 @@ const About = () => {
         </div>
         <section className="mt-12">
           <video
-            src="/assets/Banner video.mp4"
+            src="/assets/Push & Pull Intro.mp4"
             autoPlay
             muted
             className="aspect-16/9 w-full"

@@ -6,21 +6,41 @@ export default function Footer() {
         src="/assets/white-logo.svg"
         alt=""
       />
-      <p
-        style={{
-          fontSize: "26px",
-          fontFamily: "Helvetica",
-          color: "white",
-          // marginTop: "-35rem",
-          paddingBottom: "5rem",
-        }}
-      >
-        Got questions, weird thoughts, or just want to say hi?
-      </p>
+      <div className="flex gap-9 items-center">
+        <p
+          style={{ fontFamily: "Helvetica" }}
+          className="text-[28px] text-white m-0"
+        >
+          Creative
+        </p>
+        <div className="h-[24px] w-[1px] bg-white m-0"></div>
+        <p
+          style={{ fontFamily: "Helvetica" }}
+          className="text-[28px] text-white m-0"
+        >
+          TVC
+        </p>
+        <div className="h-[24px] w-[1px] bg-white m-0"></div>
+
+        <p
+          style={{ fontFamily: "Helvetica" }}
+          className="text-[28px] text-white m-0"
+        >
+          Social media
+        </p>
+        <div className="h-[24px] w-[1px] bg-white m-0"></div>
+
+        <p
+          style={{ fontFamily: "Helvetica" }}
+          className="text-[28px] text-white m-0"
+        >
+          Lead & sales
+        </p>
+      </div>
       <div className="container">
         <div
           style={{
-            borderBottom: "1px solid white",
+            borderBottom: "1px solid white m-0",
             height: "100%",
             width: "100%",
             marginBottom: "1.5rem",

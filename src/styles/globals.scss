@@ -49,6 +49,12 @@ body {
   font-style: normal;
 }
 
+.helvatica {
+  font-family: "Helvetica";
+  font-weight: 400; /* Specify the font weight as 'bold' */
+  font-style: normal;
+}
+
 // Word change animation
 .positivity {
   font-family: "Gotham";
@@ -173,9 +179,7 @@ body {
 .homeSec3 {
   background: #eec627;
   height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
   text-align: center;
 }
 .homeSec3 p {
@@ -190,7 +194,6 @@ body {
   font-family: "Gillroy_Medium";
   font-size: 22px;
   font-weight: 400;
-  width: 68%;
   margin: auto;
   margin-top: 3rem;
   line-height: 150%;
@@ -449,8 +452,9 @@ body {
 
 .worksTile1 {
   height: 250px;
-  width: 250px;
-  background-size: contain;
+  // width: 250px;
+
+  background-size: cover;
   background-repeat: no-repeat;
   background-image: url("/assets/works/workTile1.svg");
 }
@@ -461,8 +465,8 @@ body {
 }
 .worksTile2 {
   height: 250px;
-  width: 250px;
-  background-size: contain;
+  // width: 250px;
+  background-size: cover;
   background-repeat: no-repeat;
   background-image: url("/assets/works/workTile2.svg");
 }
@@ -473,8 +477,8 @@ body {
 }
 .worksTile3 {
   height: 250px;
-  width: 250px;
-  background-size: contain;
+  // width: 250px;
+  background-size: cover;
   background-repeat: no-repeat;
   background-image: url("/assets/works/workTile3.svg");
 }
@@ -485,8 +489,8 @@ body {
 }
 .worksTile4 {
   height: 250px;
-  width: 250px;
-  background-size: contain;
+  // width: 250px;
+  background-size: cover;
   background-repeat: no-repeat;
   background-image: url("/assets/works/workTile4.svg");
 }
@@ -497,8 +501,8 @@ body {
 }
 .worksTile5 {
   height: 250px;
-  width: 250px;
-  background-size: contain;
+  // width: 250px;
+  background-size: cover;
   background-repeat: no-repeat;
   background-image: url("/assets/works/workTile5.svg");
 }
@@ -510,8 +514,8 @@ body {
 
 .worksTile6 {
   height: 250px;
-  width: 250px;
-  background-size: contain;
+  // width: 250px;
+  background-size: cover;
   background-repeat: no-repeat;
   background-image: url("/assets/works/workTile6.svg");
 }
@@ -523,8 +527,8 @@ body {
 
 .worksTile7 {
   height: 250px;
-  width: 250px;
-  background-size: contain;
+  // width: 250px;
+  background-size: cover;
   background-repeat: no-repeat;
   background-image: url("/assets/works/workTile7.svg");
 }
@@ -536,8 +540,8 @@ body {
 
 .worksTile8 {
   height: 250px;
-  width: 250px;
-  background-size: contain;
+  // width: 250px;
+  background-size: cover;
   background-repeat: no-repeat;
   background-image: url("/assets/works/workTile8.svg");
 }
