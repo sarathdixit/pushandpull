@@ -273,7 +273,7 @@ export default function Index() {
           <div className="py-20 ">
             <p
               style={{ fontFamily: "Helvetica" }}
-              className="text-[55px] text-center"
+              className="text-[55px] text-center leading-[58px]"
             >
               Got questions, weird <br /> thoughts, or just want <br />{" "}
               to say hi?
