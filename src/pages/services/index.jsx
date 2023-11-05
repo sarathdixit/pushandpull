@@ -25,12 +25,12 @@ const Index = () => {
         }}
         className="relative z-10 bg-white min-h-screen"
       >
-        <div className="container">
+        <div className="container mt-10">
           <div className="border-b-2 border-b-[#707070]">
             <p className="text-[32px]">Services</p>
           </div>
           <div className="pt-10 pb-20">
-            <div className="flex gap-[120px]">
+            <div className="grid gap-[20px] grid-cols-4">
               <div
                 className="flex items-center gap-2 cursor-pointer"
                 onClick={() =>
@@ -63,8 +63,6 @@ const Index = () => {
                 <div className="w-[10px] h-[10px] rounded-full bg-[#462D81] " />
                 <p className="text-[24px] font-[400] m-0">Content Marketing</p>
               </div>
-            </div>
-            <div className="flex gap-[120px] mt-10">
               <div
                 className="flex items-center gap-2 cursor-pointer"
                 onClick={() => handleNavigation("/services/paid-media")}
@@ -84,7 +82,7 @@ const Index = () => {
                 </p>
               </div>
               <div
-                className="flex items-center gap-2 cursor-pointer"
+                className="flex items-center gap-2 cursor-pointer col-span-2"
                 onClick={() =>
                   handleNavigation("/services/search-engine-optimisation")
                 }

@@ -23,7 +23,7 @@ const Index = () => {
         className="relative z-10 bg-white pb-32"
         id="creativePage"
       >
-        <div className="px-8 md:container m-auto">
+        <div className="px-8 md:container m-auto pt-10">
           <p className="text-[32px] font-[700] text-center mb-10">
             Search Engine Optimization
           </p>

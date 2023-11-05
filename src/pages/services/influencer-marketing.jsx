@@ -18,9 +18,8 @@ const InfluencerMarketing = () => {
           fontFamily: "Helvetica",
         }}
         className="relative z-10 bg-white pb-16"
-        id="influencerMarketing"
       >
-        <div className="container">
+        <div className="container mt-10">
           <p className="text-[32px] font-[700] text-center mb-10">
             Influencer Marketing
           </p>

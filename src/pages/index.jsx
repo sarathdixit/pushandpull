@@ -7,7 +7,6 @@ import { useEffect, useRef, useState } from "react";
 import Footer from "@/components/footer";
 import CaseStudies from "@/components/caseStudies";
 import "animate.css/animate.min.css";
-import TextAnimation from "@/components/textAnimation";
 import animationData from "../../public/assets/lotties/RightArrow.json";
 import { initLottie } from "lottie-web";
 import lottie from "lottie-web";
@@ -84,13 +83,13 @@ export default function Index() {
         </div>
       </section>
 
-      <section className="relative z-10 w-full bg-[#EEC627]">
+      <section className="relative z-10 w-full bg-[#462D81]">
         <div className=" max-w-[1480px] mx-auto px-10 py-[300px]">
-          <p className="text-[#462D81] text-[100px] text-center leading-[93.5px]">
+          <p className="text-[#eec627] text-[100px] text-center leading-[93.5px]">
             PUSH&PULL NICHE INCLUDES THE QUALITY SERVICES WE PUSH THAT PULL
             CUSTOMERS TOWARDS US ARE
           </p>
-          <p className="text-[#462D81] text-[33px] text-center leading-[48px] font-[400] helvatica mt-[30px]">
+          <p className="text-[#fff] text-[33px] text-center leading-[48px] font-[400] helvatica mt-[30px]">
             We offer a wide range of digital marketing services to help
             businesses of all sizes achieve their growth objectives. Our
             services are designed to be flexible,customizable, and scalable to
