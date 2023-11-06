@@ -14,13 +14,8 @@ export default function Index() {
       />
       <main className="min-h-screen z-10 relative bg-white">
         <div className="max-w-[1480px] m-auto px-[56px] pt-[200px]">
-          <p
-            className="border-b border-b-[#000] pb-2 text-[30px]"
-            style={{ fontFamily: "Helvetica" }}
-          >
-            F45
-          </p>
-          <p className="text-center mt-10" style={{ fontFamily: "Helvetica" }}>
+          <p className="border-b border-b-[#000] pb-2 text-[30px]">F45</p>
+          <p className="text-center mt-10">
             For F45 Training Gym in Nungambakkam, KNK Road, we successfully
             revitalized their franchise prospects. By spotlighting their expert
             trainers, live classes, and quick 40-second workouts, we

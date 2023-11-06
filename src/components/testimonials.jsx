@@ -33,12 +33,11 @@ const Testimonials = () => {
           <p
             style={{
               margin: "0",
-              fontFamily: "Helvetica",
-              fontWeight: "900",
-              fontSize: "34px",
+              fontSize: "44px",
             }}
+            className="font-[400]"
           >
-            HEAR FROM OUR PARTNERS
+            Hear from our partners
           </p>
           <div
             style={{
@@ -105,10 +104,10 @@ const Testimonials = () => {
               <img src="/assets/quoteImg.svg" alt="" />
             </div>
             <div
-              className="col-span-6 testiCenterCol"
+              className="col-span-6 testiCenterCol "
               style={{ textAlign: "center", alignSelf: "center" }}
             >
-              <p>
+              <p className="!font-neue !font-[500]">
                 “I have had the pleasure of working with Push & Pull and I am
                 thoroughly impressed with their professionalism and dedication.
                 Their work is of the highest quality and they consistently
@@ -136,7 +135,7 @@ const Testimonials = () => {
               className="col-span-6 testiCenterCol"
               style={{ textAlign: "center", alignSelf: "center" }}
             >
-              <p>
+              <p className="!font-neue !font-[500]">
                 "I started working with Push & Pull from the scratch and I'm
                 extremely grateful for all the support they provided. They're
                 creativity is incredible. They had proved their efforts by
@@ -163,7 +162,7 @@ const Testimonials = () => {
               className="col-span-6 testiCenterCol"
               style={{ textAlign: "center", alignSelf: "center" }}
             >
-              <p>
+              <p className="!font-neue !font-[500]">
                 "I have worked with multiple agencies for Kal & Kai, but I got
                 to say that Push & Pull is really different. Their creative
                 strategies really helped in pushing the brand up. With the help

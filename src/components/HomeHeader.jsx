@@ -10,7 +10,6 @@ export default function HomeHeader({
   heading = "",
 }) {
   const [scrollPosition, setScrollPosition] = useState(0);
-  // const [windowHeight, setWindowHeight] = useState(null);
   const [isOpen, setIsopen] = useState(false);
   const router = useRouter();
 
@@ -22,22 +21,11 @@ export default function HomeHeader({
     const handleScroll = () => {
       setScrollPosition(window.scrollY);
     };
-    // Function to update the window height when the window is resized
-    // const updateWindowHeight = () => {
-    //   setWindowHeight(window.innerHeight - 20);
-    // };
-
-    // Initially, set the window height
-    // updateWindowHeight();
-
-    // Add a window resize event listener to keep the window height up to date
-    // window.addEventListener("resize", updateWindowHeight);
 
     window.addEventListener("scroll", handleScroll);
 
     return () => {
       window.removeEventListener("scroll", handleScroll);
-      // window.removeEventListener("resize", updateWindowHeight);
     };
   }, []);
 
@@ -57,14 +45,24 @@ export default function HomeHeader({
         <div className="py-8 flex items-center justify-between max-w-[1480px] m-auto px-10">
           <div className="relative">
             <div className="positivity">
-              <span className={`positivity__alone ${heading} text-white`}>
+              <span
+                className={`positivity__alone ${heading} text-white font-helvetica font-[500] text-[20px]`}
+              >
                 Branding <span className="text-[#eec627]">X</span>
               </span>
               <div className="positivity__words text-white">
-                <span className="change text-white">Grateful</span>
-                <span className="change text-white">Humble</span>
-                <span className="change text-white">Kind</span>
-                <span className="change text-white">Wise</span>
+                <span className="change text-white font-helvetica font-[500] text-[20px]">
+                  Grateful
+                </span>
+                <span className="change text-white font-helvetica font-[500] text-[20px]">
+                  Humble
+                </span>
+                <span className="change text-white font-helvetica font-[500] text-[20px]">
+                  Kind
+                </span>
+                <span className="change text-white font-helvetica font-[500] text-[20px]">
+                  Wise
+                </span>
               </div>
             </div>
           </div>
@@ -89,35 +87,30 @@ export default function HomeHeader({
             <ul className="p-0 w-full">
               <li
                 className="text-[#FFF] px-20 py-4 border-b border-b-[#fff] text-[24px] cursor-pointer"
-                style={{ fontFamily: "Helvetica" }}
                 onClick={() => handleNavigation("/")}
               >
                 Home
               </li>
               <li
                 className="text-[#FFF] px-20 py-4 border-b border-b-[#fff] text-[24px] cursor-pointer"
-                style={{ fontFamily: "Helvetica" }}
                 onClick={() => handleNavigation("/about")}
               >
                 About us
               </li>
               <li
                 className="text-[#FFF] px-20 py-4 border-b border-b-[#fff] text-[24px] cursor-pointer"
-                style={{ fontFamily: "Helvetica" }}
                 onClick={() => handleNavigation("/services")}
               >
                 Services
               </li>
               <li
                 className="text-[#FFF] px-20 py-4 border-b border-b-[#fff] text-[24px] cursor-pointer"
-                style={{ fontFamily: "Helvetica" }}
                 onClick={() => handleNavigation("/")}
               >
                 Blog
               </li>
               <li
                 className="text-[#FFF] px-20 py-4 text-[24px] cursor-pointer"
-                style={{ fontFamily: "Helvetica" }}
                 onClick={() => handleNavigation("/")}
               >
                 Contact us

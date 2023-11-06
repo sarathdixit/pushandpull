@@ -14,13 +14,10 @@ export default function Index() {
       />
       <main className="min-h-screen z-10 relative bg-white">
         <div className="max-w-[1480px] m-auto px-[56px] pt-[200px]">
-          <p
-            className="border-b border-b-[#000] pb-2 text-[30px]"
-            style={{ fontFamily: "Helvetica" }}
-          >
+          <p className="border-b border-b-[#000] pb-2 text-[30px]">
             Hair & Beyond
           </p>
-          <p className="text-center mt-10" style={{ fontFamily: "Helvetica" }}>
+          <p className="text-center mt-10">
             For Hair & Beyond, we executed a social media strategy, enhancing
             their online presence and engagement. Through strategic branding
             initiatives, we crafted an identity, aligning their image with

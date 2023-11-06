@@ -5,12 +5,6 @@ import Layout from "@/components/layout";
 import HomeHeader from "@/components/HomeHeader";
 import { useEffect, useRef, useState } from "react";
 import Footer from "@/components/footer";
-import CaseStudies from "@/components/caseStudies";
-import "animate.css/animate.min.css";
-import animationData from "../../public/assets/lotties/RightArrow.json";
-import { initLottie } from "lottie-web";
-import lottie from "lottie-web";
-import LottieAnimation from "@/components/rightArrowLottie";
 import Testimonials from "@/components/testimonials";
 import { useRouter } from "next/router";
 
@@ -60,36 +54,35 @@ export default function Index() {
           alt=""
           className="h-screen w-screen object-cover"
         />
-
-        {/* <video
-          ref={videoRef}
-          src="/assets/Banner video.mp4"
-          autoPlay
-          muted
-          className="aspect-16/9 w-full"
-          loop
-        ></video> */}
-        <div className="absolute z-20 top-[25%] max-w-[1480px] left-0 right-0 px-14 m-auto">
-          <p className="text-white text-[32px] border-b-2 inline-block">
+        <div className="absolute z-20 top-[30%] max-w-[1480px] left-0 right-0 px-14 m-auto">
+          <p className="text-white text-[32px] border-b-2 inline-block !font-bebas">
             PUSH AND PULL
           </p>
-          <p className="text-white text-[92px] leading-[50px] mt-6">CREATIVE</p>
+          <p className="text-white text-[92px] leading-[50px] mt-6 !font-bebas">
+            CREATIVE
+          </p>
           <br />
-          <p className="text-white text-[92px] leading-[50px]">TVC</p>
+          <p className="text-white text-[92px] leading-[50px] !font-bebas">
+            TVC
+          </p>
           <br />
-          <p className="text-white text-[92px] leading-[50px]">SOCIAL MEDIA</p>
+          <p className="text-white text-[92px] leading-[50px] !font-bebas">
+            SOCIAL MEDIA
+          </p>
           <br />
-          <p className="text-white text-[92px] leading-[50px]">LEADS & SALES</p>
+          <p className="text-white text-[92px] leading-[50px] !font-bebas">
+            LEADS & SALES
+          </p>
         </div>
       </section>
 
       <section className="relative z-10 w-full bg-[#462D81]">
         <div className=" max-w-[1480px] mx-auto px-10 py-[300px]">
-          <p className="text-[#eec627] text-[100px] text-center leading-[93.5px]">
+          <p className="text-[#eec627] text-[100px] text-center leading-[93.5px] !font-bebas">
             PUSH&PULL NICHE INCLUDES THE QUALITY SERVICES WE PUSH THAT PULL
             CUSTOMERS TOWARDS US ARE
           </p>
-          <p className="text-[#fff] text-[33px] text-center leading-[48px] font-[400] helvatica mt-[30px]">
+          <p className="text-[#fff] text-[33px] text-center leading-[48px] mt-[30px] !font-neue !font-[500]">
             We offer a wide range of digital marketing services to help
             businesses of all sizes achieve their growth objectives. Our
             services are designed to be flexible,customizable, and scalable to
@@ -131,7 +124,7 @@ export default function Index() {
             <div className="col-span-2 md:col-span-1 py-[100px]">
               <ul style={{ listStyle: "none", fontSize: "24px" }}>
                 <li
-                  className="cursor-pointer"
+                  className="cursor-pointer !font-neue !font-[500]"
                   onClick={() =>
                     handleNavigation("/services/influencer-marketing")
                   }
@@ -139,19 +132,19 @@ export default function Index() {
                   Influencer Marketing
                 </li>
                 <li
-                  className="mt-2 cursor-pointer"
+                  className="mt-4 cursor-pointer !font-neue !font-[500]"
                   onClick={() => handleNavigation("/services/creative")}
                 >
                   Creative
                 </li>
                 <li
-                  className="mt-2 cursor-pointer"
+                  className="mt-4 cursor-pointer !font-neue !font-[500]"
                   onClick={() => handleNavigation("/services/website")}
                 >
                   Website
                 </li>
                 <li
-                  className="mt-2 cursor-pointer"
+                  className="mt-4 cursor-pointer !font-neue !font-[500]"
                   onClick={() =>
                     handleNavigation("/services/content-marketing")
                   }
@@ -159,13 +152,13 @@ export default function Index() {
                   Content Marketing
                 </li>
                 <li
-                  className="mt-2 cursor-pointer"
+                  className="mt-4 cursor-pointer !font-neue !font-[500]"
                   onClick={() => handleNavigation("/services/paid-media")}
                 >
                   Paid Media
                 </li>
                 <li
-                  className="mt-2 cursor-pointer"
+                  className="mt-4 cursor-pointer !font-neue !font-[500]"
                   onClick={() =>
                     handleNavigation("/services/social-media-optimisation")
                   }
@@ -173,7 +166,7 @@ export default function Index() {
                   Social Media Optimisation
                 </li>
                 <li
-                  className="mt-2 cursor-pointer"
+                  className="mt-4 cursor-pointer !font-neue !font-[500]"
                   onClick={() =>
                     handleNavigation("/services/search-engine-optimisation")
                   }
@@ -197,11 +190,11 @@ export default function Index() {
               <h4 style={{ fontSize: "44px" }}>OUR WORK</h4>
             </div>
             <div className="col-span-2 md:col-span-1 py-[100px]">
-              <ul style={{ listStyle: "none", fontSize: "24px" }}>
-                <li>
+              <ul style={{ listStyle: "none" }}>
+                <li className="text-[30px] !font-neue !font-[500]">
                   Prepare to Be Pulled Into a World of Creative Brilliance!
                 </li>
-                <li className="mt-2 text-[20px]">
+                <li className="mt-2 text-[20px] !font-neue !font-[500]">
                   Our digital marketing agency excels at assisting clients in
                   overcoming business challenges through expertly crafted
                   strategies and one-of-a-kind design solutions.Our approach to
@@ -270,25 +263,16 @@ export default function Index() {
             </div>
           </div>
           <div className="py-20 ">
-            <p
-              style={{ fontFamily: "Helvetica" }}
-              className="text-[55px] text-center leading-[58px]"
-            >
+            <p className="text-[55px] text-center leading-[58px] !font-neue">
               Got questions, weird <br /> thoughts, or just want <br />{" "}
               to say hi?
             </p>
           </div>
           <div className="bg-[#462D81] py-[121px] mb-[160px] mt-[100px]">
-            <p
-              className="text-white text-center text-[50px]"
-              style={{ fontFamily: "Helvetica" }}
-            >
+            <p className="text-white text-center text-[50px] !font-neue">
               Interested in working together?
             </p>
-            <p
-              className="text-white text-center underline cursor-pointer text-[40px]"
-              style={{ fontFamily: "Helvetica" }}
-            >
+            <p className="text-white text-center underline cursor-pointer text-[40px] !font-neue font-[500]">
               Talk to us
             </p>
           </div>

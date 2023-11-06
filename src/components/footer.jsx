@@ -7,35 +7,15 @@ export default function Footer() {
         alt=""
       />
       <div className="flex gap-9 items-center">
-        <p
-          style={{ fontFamily: "Helvetica" }}
-          className="text-[28px] text-white m-0"
-        >
-          Creative
-        </p>
+        <p className="text-[28px] text-white m-0">Creative</p>
         <div className="h-[24px] w-[1px] bg-white m-0"></div>
-        <p
-          style={{ fontFamily: "Helvetica" }}
-          className="text-[28px] text-white m-0"
-        >
-          TVC
-        </p>
+        <p className="text-[28px] text-white m-0">TVC</p>
         <div className="h-[24px] w-[1px] bg-white m-0"></div>
 
-        <p
-          style={{ fontFamily: "Helvetica" }}
-          className="text-[28px] text-white m-0"
-        >
-          Social media
-        </p>
+        <p className="text-[28px] text-white m-0">Social media</p>
         <div className="h-[24px] w-[1px] bg-white m-0"></div>
 
-        <p
-          style={{ fontFamily: "Helvetica" }}
-          className="text-[28px] text-white m-0"
-        >
-          Lead & sales
-        </p>
+        <p className="text-[28px] text-white m-0">Lead & sales</p>
       </div>
       <div className="container">
         <div

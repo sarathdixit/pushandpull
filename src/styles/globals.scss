@@ -1,79 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap");
-// fontFamily: "'Open Sans', sans-serif"
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
-// fontFamily: 'Bebas Neue', sans-serif;
+
 html,
-body {
+body,
+body * {
   scroll-behavior: smooth !important;
   scroll-snap-type: none;
   scroll-snap-stop: normal;
-  font-family: "Bebas Neue", sans-serif !important;
-}
-@font-face {
-  font-family: "Helvetica Light";
-  src: url("/assets/fonts/Helvetica/Helvetica-Light.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Helvetica";
-  src: url("/assets/fonts/Helvetica/Helvetica.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Futura_700";
-  src: url("/assets/fonts/Futura/FuturaBold.otf") format("opentype"); /* Specify the font file for the bold weight */
-  font-weight: 700; /* Specify the font weight as 'bold' */
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Gillroy_Medium";
-  src: url("/assets/fonts/Gilroy/Gilroy-Medium.ttf") format("truetype"); /* Specify the font file for the bold weight */
-  font-weight: 400; /* Specify the font weight as 'bold' */
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Gotham";
-  src: url("/assets/fonts/Gotham/GothamBook.ttf") format("truetype"); /* Specify the font file for the bold weight */
-  font-weight: 400; /* Specify the font weight as 'bold' */
-  font-style: normal;
-}
-
-.helvatica {
-  font-family: "Helvetica";
-  font-weight: 400; /* Specify the font weight as 'bold' */
-  font-style: normal;
+  font-family: var(--font-helvetica) !important;
 }
 
 // Word change animation
 .positivity {
   font-family: "Gotham";
   font-size: 18px;
-  //   position: absolute;
-  //   top: 50%;
-  //   left: 50%;
-  //   transform: translate(-50%, -50%);
-  //   min-width: 320px;
   height: auto;
   padding: 1rem;
-  //   margin-top: 1rem;
-  //   border: 3px solid #fff;
-  //   border-radius: 0.2rem;
   overflow: hidden;
 
   .positivity__alone {
     display: inline-block;
-    // font-family: serif;
     color: #fff;
   }
 
@@ -271,7 +218,6 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-family: "Helvetica";
   letter-spacing: 1px;
   line-height: 105%;
 }
@@ -412,7 +358,6 @@ body {
 .testiCenterCol {
   padding-top: 2rem;
   font-size: 20px;
-  font-family: "Helvetica Light";
   font-weight: 400;
 }
 
@@ -577,8 +522,6 @@ body {
   margin: 0 auto;
   /* font-size: 30px; */
   white-space: nowrap;
-
-  font-family: "Helvetica";
 }
 
 .marqueeStyle {
