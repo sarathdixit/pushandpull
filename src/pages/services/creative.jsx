@@ -4,6 +4,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { AnimtedImage } from "@/components/animatedImage";
 import HomeHeader from "@/components/HomeHeader";
+import ScrollText from "@/components/scrollText";
 
 const Creative = () => {
   return (
@@ -24,15 +25,12 @@ const Creative = () => {
         id="creativePage"
       >
         <div className="px-8 md:container m-auto pt-10">
-          <p className="text-[32px] font-[700] text-center mb-10">Creative</p>
-          <div className="flex justify-center  mt-6 mb-8">
-            <div className="bg-black text-white px-6 py-2">
-              <p behavior="scroll" direction="right" className="m-0">
-                Stand Out in the Digital Crowd with Our Eye-Catching Graphics
-              </p>
-            </div>
+          <p className="text-[32px] font-[700] text-center">Creative</p>
+
+          <div className="flex justify-center mb-16 mt-10">
+            <ScrollText text="Stand Out in the Digital Crowd with Our Eye-Catching Graphics" />{" "}
           </div>
-          <p style={{ marginBottom: "3rem" }} className="mt-6 text-center">
+          <p style={{ marginBottom: "3rem" }} className="text-center">
             To effectively convey a message to your target audience, graphic
             design is the art of producing visual information. Our team of
             skilled graphic designers specializes in producing captivating

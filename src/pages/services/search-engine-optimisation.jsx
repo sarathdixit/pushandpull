@@ -4,6 +4,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { AnimtedImage } from "@/components/animatedImage";
 import HomeHeader from "@/components/HomeHeader";
+import ScrollText from "@/components/scrollText";
 
 const Index = () => {
   return (
@@ -28,11 +29,7 @@ const Index = () => {
             Search Engine Optimization
           </p>
           <div className="flex justify-center  mt-6 mb-8">
-            <div className="bg-black text-white px-6 py-2">
-              <p behavior="scroll" direction="right" className="m-0">
-                Boost Your Online Presence
-              </p>
-            </div>
+            <ScrollText text=" Boost Your Online Presence" />
           </div>
           <p style={{ marginBottom: "3rem" }} className="mt-6 text-center">
             Are you ready to elevate your online presence and dominate the

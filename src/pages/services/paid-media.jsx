@@ -4,6 +4,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { AnimtedImage } from "@/components/animatedImage";
 import HomeHeader from "@/components/HomeHeader";
+import ScrollText from "@/components/scrollText";
 
 const Creative = () => {
   return (
@@ -26,12 +27,7 @@ const Creative = () => {
         <div className="px-8 md:container m-auto pt-10">
           <p className="text-[32px] font-[700] text-center mb-10">Paid Media</p>
           <div className="flex justify-center  mt-6 mb-8">
-            <div className="bg-black text-white px-6 py-2">
-              <p behavior="scroll" direction="right" className="m-0">
-                Maximize Brand Awareness, Visibility, Lead Generation, and Sales
-                with Our Customized Paid Media Campaign
-              </p>
-            </div>
+            <ScrollText text="Maximize Brand Awareness, Visibility, Lead Generation, and Sales with Our Customized Paid Media Campaign" />
           </div>
           <p style={{ marginBottom: "3rem" }} className="mt-6 text-center">
             Paid media is a successful technique to raise brand recognition,

@@ -4,6 +4,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { AnimtedImage } from "@/components/animatedImage";
 import HomeHeader from "@/components/HomeHeader";
+import ScrollText from "@/components/scrollText";
 
 const Index = () => {
   return (
@@ -28,12 +29,10 @@ const Index = () => {
             Social Media Optimisation
           </p>
           <div className="flex justify-center  mt-6 mb-8">
-            <div className="bg-black text-white px-6 py-2">
-              <p behavior="scroll" direction="right" className="m-0">
-                Maximize Your Reach and Engagement on Social Media with Our
-                Proven Strategies
-              </p>
-            </div>
+            <ScrollText
+              text="Maximize Your Reach and Engagement on Social Media with Our
+                Proven Strategies"
+            />
           </div>
           <p style={{ marginBottom: "3rem" }} className="mt-6 text-center">
             Social media is a powerful tool for building brand awareness,

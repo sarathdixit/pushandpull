@@ -46,21 +46,42 @@ export default function HomeHeader({
           <div className="relative">
             <div className="positivity">
               <span
-                className={`positivity__alone ${heading} text-white font-helvetica font-[500] text-[20px]`}
+                className={`positivity__alone ${heading} font-helvetica font-[500] text-[20px]  ${
+                  !hide ? "text-white" : "text-black"
+                }`}
               >
-                Branding <span className="text-[#eec627]">X</span>
+                Branding{" "}
+                <span className={`${!hide ? "text-[#eec627]" : "text-black"}`}>
+                  X
+                </span>
               </span>
               <div className="positivity__words text-white">
-                <span className="change text-white font-helvetica font-[500] text-[20px]">
+                <span
+                  className={`change font-helvetica  font-[500] text-[20px] ${
+                    !hide ? "text-white" : "text-black"
+                  }`}
+                >
                   Grateful
                 </span>
-                <span className="change text-white font-helvetica font-[500] text-[20px]">
+                <span
+                  className={`change font-helvetica  font-[500] text-[20px] ${
+                    !hide ? "text-white" : "text-black"
+                  }`}
+                >
                   Humble
                 </span>
-                <span className="change text-white font-helvetica font-[500] text-[20px]">
+                <span
+                  className={`change font-helvetica  font-[500] text-[20px] ${
+                    !hide ? "text-white" : "text-black"
+                  }`}
+                >
                   Kind
                 </span>
-                <span className="change text-white font-helvetica font-[500] text-[20px]">
+                <span
+                  className={`change font-helvetica  font-[500] text-[20px] ${
+                    !hide ? "text-white" : "text-black"
+                  }`}
+                >
                   Wise
                 </span>
               </div>

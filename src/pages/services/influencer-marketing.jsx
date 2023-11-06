@@ -1,5 +1,6 @@
 import HomeHeader from "@/components/HomeHeader";
 import Footer from "@/components/footer";
+import ScrollText from "@/components/scrollText";
 import React from "react";
 
 const InfluencerMarketing = () => {
@@ -23,18 +24,8 @@ const InfluencerMarketing = () => {
           <p className="text-[32px] font-[700] text-center mb-10">
             Influencer Marketing
           </p>
-          <div className="flex justify-center  mt-6 mb-2">
-            <div className="bg-black text-white px-6 py-2 flex">
-              {/* <marquee behavior="scroll" direction="right">
-                Utilise Influencer Marketing to Expand Your Business and Get
-                Noticed!
-              </marquee> */}
-              <p className="m-0">
-                Utilise Influencer Marketing to Expand Your Business and Get
-                Noticed!
-              </p>
-            </div>
-          </div>
+          <ScrollText text="Utilise Influencer Marketing to Expand Your Business and Get Noticed!" />
+
           <p className=" mb-4 text-center mt-16">
             In the current digital era, social media has become a potent tool
             for businesses to advertise their goods and services. Influencer
