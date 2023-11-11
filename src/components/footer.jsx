@@ -1,12 +1,13 @@
 export default function Footer() {
   return (
-    <footer className="sticky bottom-0 h-screen left-0 w-full bg-[#462D81] grid place-items-center py-12 z-0">
+    <footer className="sticky bottom-0  left-0 w-full bg-[#462D81] grid place-items-center py-12 z-0">
       <img
-        style={{ width: "26%", marginTop: "2rem" }}
+        style={{ width: "15%", marginTop: "2rem" }}
         src="/assets/white-logo.svg"
+        className="mb-10"
         alt=""
       />
-      <div className="flex gap-9 items-center">
+      <div className="flex gap-9 items-center mb-20">
         <p className="text-[28px] text-white m-0">Creative</p>
         <div className="h-[24px] w-[1px] bg-white m-0"></div>
         <p className="text-[28px] text-white m-0">TVC</p>

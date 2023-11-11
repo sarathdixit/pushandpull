@@ -48,7 +48,7 @@ const Index = () => {
                   </p>
                 </div>
                 <div className="w-[200px]">
-                  <AnimtedImage url={"/assets/social/social1.png"} />
+                  <AnimtedImage url={"/assets/seo/image1.jpg"} />
                 </div>
               </div>
               <motion.div
@@ -79,7 +79,7 @@ const Index = () => {
                     On-Page Optimization
                   </p>
                 </div>
-                <AnimtedImage url={"/assets/social/social2.png"} />
+                <AnimtedImage url={"/assets/seo/image2.jpg"} />
               </div>
               <motion.div
                 initial={{ height: 0 }}
@@ -109,7 +109,7 @@ const Index = () => {
                     Content Creation and Optimization
                   </p>
                 </div>
-                <AnimtedImage url={"/assets/social/social3.png"} />
+                <AnimtedImage url={"/assets/seo/image3.jpg"} />
               </div>
 
               <motion.div
@@ -138,7 +138,7 @@ const Index = () => {
                 <div className="flex justify-center absolute -top-[90px] mt-6 w-[100%]">
                   <p className="bg-black text-white px-6 py-2">Link Building</p>
                 </div>
-                <AnimtedImage url={"/assets/social/social4.png"} />
+                <AnimtedImage url={"/assets/seo/image4.jpg"} />
               </div>
               <motion.div
                 initial={{ height: 0 }}
@@ -168,7 +168,7 @@ const Index = () => {
                 <div className="flex justify-center absolute -top-[90px] mt-6 w-[100%]">
                   <p className="bg-black text-white px-6 py-2">Technical</p>
                 </div>
-                <AnimtedImage url={"/assets/social/social3.png"} />
+                <AnimtedImage url={"/assets/seo/image5.jpg"} />
               </div>
 
               <motion.div
@@ -197,7 +197,7 @@ const Index = () => {
                 <div className="flex justify-center absolute -top-[90px] mt-6 w-[100%]">
                   <p className="bg-black text-white px-6 py-2">Local SEO</p>
                 </div>
-                <AnimtedImage url={"/assets/social/social4.png"} />
+                <AnimtedImage url={"/assets/seo/image6.jpg"} />
               </div>
               <motion.div
                 initial={{ height: 0 }}
@@ -226,7 +226,7 @@ const Index = () => {
                     Performance Tracking and Reporting
                   </p>
                 </div>
-                <AnimtedImage url={"/assets/social/social2.png"} />
+                <AnimtedImage url={"/assets/seo/image7.jpg"} />
               </div>
               <motion.div
                 initial={{ height: 0 }}
@@ -256,7 +256,7 @@ const Index = () => {
                   </p>
                 </div>
                 <div className="w-[200px]">
-                  <AnimtedImage url={"/assets/social/social1.png"} />
+                  <AnimtedImage url={"/assets/seo/image8.jpg"} />
                 </div>
               </div>
               <motion.div
@@ -287,7 +287,7 @@ const Index = () => {
                     Experienced Team
                   </p>
                 </div>
-                <AnimtedImage url={"/assets/social/social2.png"} />
+                <AnimtedImage url={"/assets/seo/image9.jpg"} />
               </div>
               <motion.div
                 initial={{ height: 0 }}
@@ -317,7 +317,7 @@ const Index = () => {
                     Customized Approach
                   </p>
                 </div>
-                <AnimtedImage url={"/assets/social/social3.png"} />
+                <AnimtedImage url={"/assets/seo/image9.jpg"} />
               </div>
 
               <motion.div
@@ -348,7 +348,7 @@ const Index = () => {
                     Transparent Communication
                   </p>
                 </div>
-                <AnimtedImage url={"/assets/social/social4.png"} />
+                <AnimtedImage url={"/assets/seo/image10.jpg"} />
               </div>
               <motion.div
                 initial={{ height: 0 }}

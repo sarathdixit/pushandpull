@@ -402,6 +402,7 @@ body * {
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url("/assets/works/workTile1.svg");
+  background-position: center;
 }
 .worksTile1:hover {
   cursor: pointer;
@@ -414,6 +415,7 @@ body * {
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url("/assets/works/workTile2.svg");
+  background-position: center;
 }
 .worksTile2:hover {
   cursor: pointer;
@@ -426,6 +428,7 @@ body * {
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url("/assets/works/workTile3.svg");
+  background-position: center;
 }
 .worksTile3:hover {
   cursor: pointer;
@@ -438,6 +441,7 @@ body * {
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url("/assets/works/workTile4.svg");
+  background-position: center;
 }
 .worksTile4:hover {
   cursor: pointer;
@@ -450,11 +454,13 @@ body * {
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url("/assets/works/workTile5.svg");
+  background-position: center;
 }
 .worksTile5:hover {
   cursor: pointer;
   background-image: url("/assets/works/Frame 14.jpg");
   transition: background-image ease-in-out 0.3s;
+  background-position: center;
 }
 
 .worksTile6 {
@@ -468,6 +474,7 @@ body * {
   cursor: pointer;
   background-image: url("/assets/works/Frame 15.jpg");
   transition: background-image ease-in-out 0.3s;
+  background-position: center;
 }
 
 .worksTile7 {
@@ -480,6 +487,7 @@ body * {
 .worksTile7:hover {
   cursor: pointer;
   background-image: url("/assets/works/Frame 16.jpg");
+  background-position: center;
   transition: background-image ease-in-out 0.3s;
 }
 
@@ -487,6 +495,7 @@ body * {
   height: 250px;
   // width: 250px;
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   background-image: url("/assets/works/workTile8.svg");
 }

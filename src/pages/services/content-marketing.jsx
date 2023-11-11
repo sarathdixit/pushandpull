@@ -56,13 +56,14 @@ const InfluencerMarketing = () => {
           </p>
           <div className="grid grid-cols-3 gap-4 items-center mb-12">
             <div className="col-span-1">
-              <img src="/assets/IM1.svg" alt="" />
+              {/* <img src="/assets/IM1.svg" alt="" /> */}
+              <video src="/assets/videos/Kaaviya Video.mp4" controls></video>
             </div>
             <div className="col-span-1">
-              <img src="/assets/IM2.svg" alt="" />
+              <video src="/assets/videos/Vikram Video.mp4" controls></video>
             </div>
             <div className="col-span-1">
-              <img src="/assets/IM3.svg" alt="" />
+              <video src="/assets/videos/Kanmani Video.mp4" controls></video>
             </div>
           </div>
 

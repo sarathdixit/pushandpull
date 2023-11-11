@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import CustomImage from "./image";
 import { motion } from "framer-motion";
 import { useRouter } from "next/router";
+import Link from "next/link";
 export default function HomeHeader({
   hide = false,
   logo = "/assets/logo.svg",
@@ -90,7 +91,9 @@ export default function HomeHeader({
           <div
             className={`!absolute left-0 right-0 w-full flex justify-center  `}
           >
-            <CustomImage url={logo} className="w-[200px] h-[80px]" />
+            <Link href="/">
+              <CustomImage url={logo} className="w-[161px] h-[80px]" />
+            </Link>
           </div>
           <div onClick={() => setIsopen(true)} className="relative z-50">
             <img src={menu} alt="" className="cursor-pointer" />
