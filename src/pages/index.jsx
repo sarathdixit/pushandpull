@@ -1,7 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import { AnimtedImage } from "@/components/animatedImage";
 import { motion, useAnimation } from "framer-motion";
-import Layout from "@/components/layout";
 import HomeHeader from "@/components/HomeHeader";
 import { useEffect, useRef, useState } from "react";
 import Footer from "@/components/footer";

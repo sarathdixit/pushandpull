@@ -1,4 +1,4 @@
-import "@/styles/globals.scss";
+import "../styles/globals.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Bebas_Neue } from "next/font/google";
 import localFont from "next/font/local";

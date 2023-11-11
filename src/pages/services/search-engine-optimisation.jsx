@@ -41,13 +41,13 @@ const Index = () => {
 
           <div className="px-5 py-7 border-[1px] border-[#000] rounded-3xl m-auto">
             <div className="flex flex-wrap  justify-around py-6">
-              <div className="relative md:order-last">
+              <div className="relative md:order-last flex-auto">
                 <div className="flex justify-center absolute -top-[90px] mt-6 w-[100%]">
                   <p className="bg-black text-white px-6 py-2">
                     Keyword Research and Analysis
                   </p>
                 </div>
-                <div className="w-[200px]">
+                <div className="w-[200px] m-auto">
                   <AnimtedImage url={"/assets/seo/image1.jpg"} />
                 </div>
               </div>
@@ -58,7 +58,7 @@ const Index = () => {
                 transition={{ duration: 1, delay: 1.5 }}
                 viewport={{ once: true }}
               ></motion.div>
-              <p className="w-[450px] md:order-first self-center text-justify">
+              <p className="w-[450px] md:order-first self-center text-justify flex-auto p-16">
                 Uncover the keywords your target audience is searching for and
                 ensure your content aligns perfectly, driving organic traffic to
                 your website
@@ -73,13 +73,15 @@ const Index = () => {
               viewport={{ once: true }}
             ></motion.div>
             <div className="flex flex-wrap justify-around py-6">
-              <div className="relative">
+              <div className="relative flex-1">
                 <div className="flex justify-center absolute -top-[90px] mt-6 w-[100%]">
                   <p className="bg-black text-white px-6 py-2">
                     On-Page Optimization
                   </p>
                 </div>
-                <AnimtedImage url={"/assets/seo/image2.jpg"} />
+                <div className="w-[200px] m-auto">
+                  <AnimtedImage url={"/assets/seo/image2.jpg"} />
+                </div>
               </div>
               <motion.div
                 initial={{ height: 0 }}
@@ -88,7 +90,7 @@ const Index = () => {
                 transition={{ duration: 1, delay: 1.5 }}
                 viewport={{ once: true }}
               ></motion.div>
-              <p className="w-[450px] self-center text-justify">
+              <p className="w-[450px] self-center text-justify flex-1 p-10">
                 We'll fine-tune your website's structure, meta tags, and content
                 to make sure search engines love what they see, resulting in
                 higher rankings.
@@ -103,13 +105,15 @@ const Index = () => {
             ></motion.div>
 
             <div className="flex flex-wrap justify-around py-6">
-              <div className="relative md:order-last">
+              <div className="relative md:order-last flex-1">
                 <div className="flex justify-center absolute -top-[90px] mt-6 w-[100%]">
                   <p className="bg-black text-white px-6 py-2">
                     Content Creation and Optimization
                   </p>
                 </div>
-                <AnimtedImage url={"/assets/seo/image3.jpg"} />
+                <div className="w-[200px] m-auto">
+                  <AnimtedImage url={"/assets/seo/image3.jpg"} />
+                </div>
               </div>
 
               <motion.div
@@ -119,7 +123,7 @@ const Index = () => {
                 transition={{ duration: 1, delay: 1.5 }}
                 viewport={{ once: true }}
               ></motion.div>
-              <p className="w-[450px] md:order-first">
+              <p className="w-[450px] md:order-first flex-1 self-center">
                 Our skilled writers craft engaging, keyword-rich content that
                 resonates with your audience while satisfying search engine
                 algorithms.
@@ -219,23 +223,28 @@ const Index = () => {
               transition={{ duration: 1.5 }}
               viewport={{ once: true }}
             ></motion.div>
+
             <div className="flex flex-wrap justify-around py-6">
-              <div className="relative">
+              <div className="relative md:order-last flex-1">
                 <div className="flex justify-center absolute -top-[90px] mt-6 w-[100%]">
                   <p className="bg-black text-white px-6 py-2">
+                    {" "}
                     Performance Tracking and Reporting
                   </p>
                 </div>
-                <AnimtedImage url={"/assets/seo/image7.jpg"} />
+                <div className="w-[200px] m-auto">
+                  <AnimtedImage url={"/assets/seo/image7.jpg"} />
+                </div>
               </div>
+
               <motion.div
                 initial={{ height: 0 }}
                 whileInView={{ height: "auto" }}
-                className=" w-[0.82px] bg-black cust_invisible cust_md_visible"
+                className="w-[0.82px] bg-black"
                 transition={{ duration: 1, delay: 1.5 }}
                 viewport={{ once: true }}
               ></motion.div>
-              <p className="w-[450px] self-center text-justify">
+              <p className="w-[450px] md:order-first p-10 flex-1">
                 Stay informed with regular reports that outline your progress,
                 keyword rankings, and the impact of our SEO efforts.
               </p>
@@ -287,7 +296,9 @@ const Index = () => {
                     Experienced Team
                   </p>
                 </div>
-                <AnimtedImage url={"/assets/seo/image9.jpg"} />
+                <div className="w-[200px] m-auto">
+                  <AnimtedImage url={"/assets/seo/image11.jpg"} />
+                </div>
               </div>
               <motion.div
                 initial={{ height: 0 }}
@@ -311,13 +322,15 @@ const Index = () => {
             ></motion.div>
 
             <div className="flex flex-wrap justify-around py-6">
-              <div className="relative md:order-last">
+              <div className="relative md:order-last flex-1">
                 <div className="flex justify-center absolute -top-[90px] mt-6 w-[100%]">
                   <p className="bg-black text-white px-6 py-2">
                     Customized Approach
                   </p>
                 </div>
-                <AnimtedImage url={"/assets/seo/image9.jpg"} />
+                <div className="m-auto w-[200px]">
+                  <AnimtedImage url={"/assets/seo/image10.jpg"} />
+                </div>
               </div>
 
               <motion.div
@@ -327,7 +340,7 @@ const Index = () => {
                 transition={{ duration: 1, delay: 1.5 }}
                 viewport={{ once: true }}
               ></motion.div>
-              <p className="w-[450px] md:order-first">
+              <p className="w-[450px] md:order-first flex-1 p-10">
                 We understand that each business is unique. That's why we tailor
                 our strategies to fit your specific goals, industry, and target
                 audience.
@@ -342,13 +355,15 @@ const Index = () => {
             ></motion.div>
 
             <div className="flex flex-wrap justify-around py-6">
-              <div className="relative">
+              <div className="relative flex-1">
                 <div className="flex justify-center absolute -top-[90px] mt-6 w-[100%]">
                   <p className="bg-black text-white px-6 py-2">
                     Transparent Communication
                   </p>
                 </div>
-                <AnimtedImage url={"/assets/seo/image10.jpg"} />
+                <div className="w-[200px] m-auto">
+                  <AnimtedImage url={"/assets/seo/image22.jpg"} />
+                </div>
               </div>
               <motion.div
                 initial={{ height: 0 }}
@@ -357,7 +372,7 @@ const Index = () => {
                 transition={{ duration: 1, delay: 1.5 }}
                 viewport={{ once: true }}
               ></motion.div>
-              <p className="w-[450px]">
+              <p className="w-[450px] flex-1 p-10">
                 We believe in clear, open communication. You'll always know what
                 we're working on, the progress we've made, and the impact it's
                 having
@@ -365,6 +380,16 @@ const Index = () => {
             </div>
             {/* test */}
           </div>
+          <p className="text-center text-[30px] font-helvetica font-[700] pt-10">
+            Ready to Push Your SEO and Pull in Success?
+          </p>
+          <p className="text-center font-helvetica mt-2">
+            Don't let your competitors steal the spotlight. It's time to take
+            control of your online destiny with Push&Pull Digital Marketing's
+            SEO services. Contact us today to discuss how we can create a
+            customized SEO strategy that propels your business to the top of
+            search engine rankings. Let's start this journey together!
+          </p>
         </div>
       </main>
       <Footer></Footer>

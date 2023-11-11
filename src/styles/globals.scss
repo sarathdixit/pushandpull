@@ -501,7 +501,7 @@ body * {
 }
 .worksTile8:hover {
   cursor: pointer;
-  background-image: url("/assets/works/Frame 17.jpg");
+  background-image: url("/assets/beauty.png");
   transition: background-image ease-in-out 0.3s;
 }
 
@@ -541,4 +541,11 @@ body * {
   to {
     transform: translate3d(-100%, 0, 0);
   }
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+a:focus {
+  outline: none;
 }

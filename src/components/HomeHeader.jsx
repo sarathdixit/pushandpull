@@ -129,13 +129,13 @@ export default function HomeHeader({
               </li>
               <li
                 className="text-[#FFF] px-20 py-4 border-b border-b-[#fff] text-[24px] cursor-pointer"
-                onClick={() => handleNavigation("/")}
+                onClick={() => handleNavigation("/blog")}
               >
                 Blog
               </li>
               <li
                 className="text-[#FFF] px-20 py-4 text-[24px] cursor-pointer"
-                onClick={() => handleNavigation("/")}
+                onClick={() => handleNavigation("/contact")}
               >
                 Contact us
               </li>
