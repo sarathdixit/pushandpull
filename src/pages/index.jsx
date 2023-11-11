@@ -1,11 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
-import { AnimtedImage } from "@/components/animatedImage";
 import { motion, useAnimation } from "framer-motion";
 import HomeHeader from "@/components/HomeHeader";
 import { useEffect, useRef, useState } from "react";
 import Footer from "@/components/footer";
 import Testimonials from "@/components/testimonials";
 import { useRouter } from "next/router";
+import Link from "next/link";
 
 export default function Index() {
   const videoRef = useRef(null);
@@ -271,9 +271,11 @@ export default function Index() {
             <p className="text-white text-center text-[50px] !font-neue">
               Interested in working together?
             </p>
-            <p className="text-white text-center underline cursor-pointer text-[40px] !font-neue font-[500]">
-              Talk to us
-            </p>
+            <Link href="/contact">
+              <p className="text-white text-center underline cursor-pointer text-[40px] !font-neue font-[500]">
+                Talk to us
+              </p>
+            </Link>
           </div>
 
           <div className="marquee_wrapper mb-28">
