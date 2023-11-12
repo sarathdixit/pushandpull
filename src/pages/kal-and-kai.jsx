@@ -26,12 +26,14 @@ export default function Index() {
           </p>
           <div className="max-w-[1080px] m-auto flex flex-col gap-10 py-20 ">
             <div className="flex gap-10 justify-center">
-              <img src="/assets/kai/image1.jpg" alt="" />
-              <img src="/assets/kai/image2.jpg" alt="" />
+              {/* <video src="/assets/kai/video1.mp4" controls></video> */}
+              <video src="/assets/kai/video2.mp4" controls></video>
             </div>
             <div className="flex gap-10 justify-center mb-[100px]">
-              <img src="/assets/kai/image3.jpg" alt="" />
+              <video src="/assets/kai/video3.mp4" controls></video>
+              <video src="/assets/kai/video4.mp4" controls></video>
             </div>
+            <video src="/assets/kai/video1.mp4" controls></video>
           </div>
         </div>
       </main>

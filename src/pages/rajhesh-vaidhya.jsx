@@ -27,6 +27,8 @@ export default function Index() {
             influence in the world of music.
           </p>
           <div className="max-w-[1080px] m-auto flex flex-col gap-10 py-20 ">
+            <video src="/assets/rajesh/video1.mp4" controls></video>
+
             <div className="flex gap-10 justify-center">
               <img src="/assets/rajesh/image1.jpg" alt="" />
               <img src="/assets/rajesh/image2.jpg" alt="" />

@@ -177,7 +177,7 @@ export default function Index() {
           </div>
         </div>
       </section>
-      <section className="relative z-10 bg-white">
+      <section className="relative z-10 bg-white" id="works">
         <div className="max-w-[1480px] m-auto px-14 ">
           <div
             style={{

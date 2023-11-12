@@ -92,7 +92,7 @@ export default function HomeHeader({
             className={`!absolute left-0 right-0 w-full flex justify-center  `}
           >
             <Link href="/">
-              <CustomImage url={logo} className="w-[161px] h-[80px]" />
+              <CustomImage url={logo} className="w-[161px] h-[60px]" />
             </Link>
           </div>
           <div onClick={() => setIsopen(true)} className="relative z-50">
@@ -141,10 +141,21 @@ export default function HomeHeader({
               </li>
             </ul>
             <div className="flex gap-10 ml-20 mt-20">
-              <img src="/assets/linkedin-white.svg" alt="" />
-              <img src="/assets/twitter-white.svg" alt="" />
-              <img src="/assets/instagram-white.svg" alt="" />
-              <img src="/assets/facebook-white.svg" alt="" />
+              <Link
+                href={
+                  "https://www.linkedin.com/company/94152171/admin/feed/posts/"
+                }
+              >
+                <img src="/assets/linkedin-white.svg" alt="" />
+              </Link>
+              <Link href={"https://www.instagram.com/push__x__pull/"}>
+                <img src="/assets/instagram-white.svg" alt="" />
+              </Link>
+              <Link
+                href={"https://www.facebook.com/profile.php?id=100092271850049"}
+              >
+                <img src="/assets/facebook-white.svg" alt="" />
+              </Link>
             </div>
           </div>
           <motion.div

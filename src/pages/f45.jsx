@@ -26,11 +26,11 @@ export default function Index() {
           </p>
           <div className="max-w-[1080px] m-auto flex  gap-10 py-20 ">
             <div className="flex gap-10 justify-center flex-col">
-              <img src="/assets/f45/image1.jpg" alt="" />
+              <video src="/assets/f45/video1.mp4" controls></video>
               <img src="/assets/f45/image2.jpg" alt="" />
             </div>
             <div className="flex gap-10 justify-center mb-[100px] flex-col">
-              <img src="/assets/f45/image3.jpg" alt="" />
+              <video src="/assets/f45/video1.mp4" controls></video>
               <img src="/assets/f45/image4.jpg" alt="" />
             </div>
           </div>

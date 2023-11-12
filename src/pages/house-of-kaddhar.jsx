@@ -25,10 +25,10 @@ export default function Index() {
             of the dresses. Our approach ensured a compelling visual narrative
             and also engaging the audience.
           </p>
-          <div className="max-w-[1080px] m-auto flex flex-col gap-10 py-20 ">
+          <div className="max-w-[400px] m-auto flex flex-col gap-10 py-20 ">
             <div className="flex gap-10 justify-center">
-              <img src="/assets/kaddhar/image1.jpg" alt="" />
-              <img src="/assets/kaddhar/image2.jpg" alt="" />
+              <video src="/assets/kaddhar/video1.mov" controls></video>
+              <video src="/assets/kaddhar/video2.mp4" controls></video>
             </div>
             {/* <div className="flex gap-10 justify-center mb-[100px]">
               <img src="/assets/kaddhar/image3.png" alt="" />
