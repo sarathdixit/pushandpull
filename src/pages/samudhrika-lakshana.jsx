@@ -41,10 +41,6 @@ export default function Index() {
               {/* <img src="/assets/samudhrika/image1.png" alt="" />
               <img src="/assets/samudhrika/image2.png" alt="" /> */}
             </div>
-            <div className="flex gap-10 justify-center mb-[100px]">
-              {/* <img src="/assets/samudhrika/image3.png" alt="" />
-              <img src="/assets/samudhrika/image4.png" alt="" /> */}
-            </div>
           </div>
         </div>
       </main>
