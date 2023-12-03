@@ -29,11 +29,11 @@ export default function Index() {
             <div className="flex gap-10 justify-center">
               <img src="/assets/hair/image1.png" alt="" />
             </div>
-            <div className="flex gap-10 justify-center">
+            <div className="flex flex-col lg:flex-row gap-10 justify-center">
               <img src="/assets/hair/image2.png" alt="" />
               <img src="/assets/hair/image3.png" alt="" />
             </div>
-            <div className="flex gap-10 justify-center  mb-[100px]">
+            <div className="flex flex-col lg:flex-row gap-10 justify-center  mb-[100px]">
               <img src="/assets/hair/image4.png" alt="" />
             </div>
           </div>

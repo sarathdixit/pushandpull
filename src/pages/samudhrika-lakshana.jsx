@@ -33,7 +33,7 @@ export default function Index() {
           <div className="max-w-[800px] m-auto flex flex-col gap-10 py-20 ">
             <video src="/assets/samudhrika/video3.mp4" controls></video>
 
-            <div className="flex gap-10 justify-center max-w-[400px] m-auto">
+            <div className="flex flex-col lg:flex-row   gap-10 justify-center max-w-[400px] m-auto">
               <video src="/assets/samudhrika/video1.mp4" controls></video>
               <video src="/assets/samudhrika/video2.mp4" controls></video>
               <video src="/assets/samudhrika/video4.mp4" controls></video>

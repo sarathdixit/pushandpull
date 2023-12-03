@@ -64,13 +64,13 @@ const Index = () => {
         className="relative z-10 bg-white pt-[180px] pb-20"
       >
         <div className="container">
-          <div className="flex gap-10 justify-between">
+          <div className="flex flex-col lg:flex-row gap-10 justify-between">
             <div>
               <p className="inline-block font-helvetica border rounded-md !border-[#000] px-4 py-2">
                 {" "}
                 SAY HI
               </p>
-              <p className="text-[8rem] leading-[120px] mt-6">
+              <p className="text-[60px] leading-20 lg:text-[8rem] lg:leading-[120px] mt-6">
                 NO NEED <br /> TO BE SHY
               </p>
             </div>
@@ -142,13 +142,13 @@ const Index = () => {
               </div>
             </div>
           </div>
-          <div className="flex gap-10 items-center border border-black rounded-[40px] px-8 py-6 mt-12">
+          <div className="flex flex-col lg:flex-row gap-10 lg:items-center border border-black rounded-[40px] px-8 py-6 mt-12">
             <p>
               WE HAVE TWO GOOD EARS AND ARE WAITING TO HEAR FROM YOU. <br />
               <br />
               TO PUSH YOUR BRAND
             </p>
-            <div className="h-[150px] w-[1.5px] bg-black" />
+            <div className="h-[150px] w-[1.5px] bg-black hidden lg:block" />
 
             <div>
               <p>SOCIAL</p>
@@ -164,7 +164,7 @@ const Index = () => {
                 </p>
               </div>
             </div>
-            <div className="h-[150px] w-[1.5px] bg-black" />
+            <div className="h-[150px] w-[1.5px] bg-black hidden lg:block" />
 
             <div>
               <p>LOCATION</p>
@@ -173,7 +173,7 @@ const Index = () => {
                 Road, Vadapalani, Chennai, Chennai,Tamil Nadu, 600026
               </p>
             </div>
-            <div className="h-[150px] w-[1px] bg-black" />
+            <div className="h-[150px] w-[1px] bg-black hidden lg:block" />
 
             <div>
               <p>MAIL</p>

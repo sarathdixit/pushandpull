@@ -23,19 +23,17 @@ const Testimonials = () => {
       <div>
         <div
           style={{
-            display: "flex",
-            alignItems: "center",
             borderBottom: "1px solid #000",
             paddingBottom: "1rem",
             marginBottom: "1.5rem",
           }}
+          className="flex items-center"
         >
           <p
             style={{
               margin: "0",
-              fontSize: "44px",
             }}
-            className="font-[400]"
+            className="font-[400] text-[24px] lg:text-[44px]"
           >
             Hear from our partners
           </p>
@@ -99,7 +97,7 @@ const Testimonials = () => {
       </div>
       <Carousel ref={testiCarouselRef} interval={null} indicators={false}>
         <Carousel.Item>
-          <div className="grid grid-cols-10 gap-4">
+          <div className="grid grid-cols-1 lg:grid-cols-10 gap-4">
             <div className="col-span-2">
               <img src="/assets/quoteImg.svg" alt="" />
             </div>
@@ -127,7 +125,7 @@ const Testimonials = () => {
           </div>
         </Carousel.Item>
         <Carousel.Item>
-          <div className="grid grid-cols-10 gap-4">
+          <div className="grid grid-cols-1 lg:grid-cols-10 gap-4">
             <div className="col-span-2">
               <img src="/assets/quoteImg.svg" alt="" />
             </div>
@@ -154,7 +152,7 @@ const Testimonials = () => {
           </div>
         </Carousel.Item>
         <Carousel.Item>
-          <div className="grid grid-cols-10 gap-4">
+          <div className="grid grid-cols-1 lg:grid-cols-10 gap-4">
             <div className="col-span-2">
               <img src="/assets/quoteImg.svg" alt="" />
             </div>

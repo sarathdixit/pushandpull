@@ -30,7 +30,7 @@ const Index = () => {
             <p className="text-[32px]">Services</p>
           </div>
           <div className="pt-10 pb-20">
-            <div className="grid gap-[20px] grid-cols-4">
+            <div className="flex flex-col lg:grid gap-[20px] lg:grid-cols-4">
               <div
                 className="flex items-center gap-2 cursor-pointer"
                 onClick={() =>

@@ -26,12 +26,12 @@ export default function Index() {
             accessories.
           </p>
           <div className="max-w-[1080px] m-auto flex flex-col gap-10 py-20 ">
-            <div className="flex gap-10 justify-center">
+            <div className="flex flex-col lg:flex-row gap-10 justify-center">
               <img src="/assets/miller/image1.jpg" alt="" />
               <img src="/assets/miller/image2.jpg" alt="" />
               <img src="/assets/miller/image3.jpg" alt="" />
             </div>
-            <div className="flex gap-10 justify-center mb-[100px]">
+            <div className="flex flex-col lg:flex-row  gap-10 justify-center mb-[100px]">
               <img src="/assets/miller/image4.jpg" alt="" />
               <img src="/assets/miller/image5.jpg" alt="" />
               <img src="/assets/miller/image6.jpg" alt="" />

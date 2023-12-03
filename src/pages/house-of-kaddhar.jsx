@@ -26,7 +26,7 @@ export default function Index() {
             and also engaging the audience.
           </p>
           <div className="max-w-[400px] m-auto flex flex-col gap-10 py-20 ">
-            <div className="flex gap-10 justify-center">
+            <div className="flex flex-col lg:flex-row gap-10 justify-center">
               <video src="/assets/kaddhar/video1.mov" controls></video>
               <video src="/assets/kaddhar/video2.mp4" controls></video>
             </div>

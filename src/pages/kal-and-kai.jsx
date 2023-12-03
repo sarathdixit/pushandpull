@@ -29,7 +29,7 @@ export default function Index() {
               {/* <video src="/assets/kai/video1.mp4" controls></video> */}
               <video src="/assets/kai/video2.mp4" controls></video>
             </div>
-            <div className="flex gap-10 justify-center mb-[100px]">
+            <div className="flex flex-col lg:flex-row gap-10 justify-center mb-[100px]">
               <video src="/assets/kai/video3.mp4" controls></video>
               <video src="/assets/kai/video4.mp4" controls></video>
             </div>

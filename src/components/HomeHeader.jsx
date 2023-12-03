@@ -43,8 +43,8 @@ export default function HomeHeader({
       <header
         className={`fixed z-20 w-full  ${getClassName()} ${header} transition-colors duration-500`}
       >
-        <div className="py-8 flex items-center justify-between max-w-[1480px] m-auto px-10">
-          <div className="relative">
+        <div className="py-8 flex items-center justify-end lg:justify-between max-w-[1480px] m-auto px-10">
+          <div className="relative hidden lg:block">
             <div className="positivity">
               <span
                 className={`positivity__alone ${heading} font-helvetica font-[500] text-[20px]  ${
@@ -92,11 +92,18 @@ export default function HomeHeader({
             className={`!absolute left-0 right-0 w-full flex justify-center  `}
           >
             <Link href="/">
-              <CustomImage url={logo} className="w-[161px] h-[60px]" />
+              <CustomImage
+                url={logo}
+                className="w-[80px] h-[60px] lg:w-[161px] lg:h-[60px]"
+              />
             </Link>
           </div>
           <div onClick={() => setIsopen(true)} className="relative z-50">
-            <img src={menu} alt="" className="cursor-pointer" />
+            <img
+              src={menu}
+              alt=""
+              className="cursor-pointer w-[35px] h-[35px] "
+            />
           </div>
         </div>
       </header>
@@ -104,7 +111,7 @@ export default function HomeHeader({
         <motion.div
           className="h-screen fixed z-20 bg-black right-0 flex items-center"
           initial={{ width: 0 }}
-          whileInView={{ width: "65%" }}
+          whileInView={{ width: window.innerWidth > 600 ? "65%" : "100%" }}
           transition={{ duration: 0.5, delay: 0.2, ease: [0.42, 0, 0.58, 1] }}
         >
           <div className="w-full">
@@ -160,7 +167,7 @@ export default function HomeHeader({
           </div>
           <motion.div
             onClick={() => setIsopen(false)}
-            className="absolute top-10 right-[130px]"
+            className="absolute top-10 left-10 lg:right-[130px]"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.5, ease: [0.42, 0, 0.58, 1] }}

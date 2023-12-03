@@ -515,7 +515,7 @@ body * {
 }
 
 .scrolling_text {
-  width: 800px;
+  width: 100%;
   margin: auto;
   overflow: hidden;
   display: flex;
@@ -548,4 +548,24 @@ textarea:focus,
 select:focus,
 a:focus {
   outline: none;
+}
+
+.overrideText {
+  text-align: center;
+}
+
+.footerIcons {
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+  .overrideText {
+    text-align: right;
+  }
+  .footerIcons {
+    margin-right: auto;
+  }
+  .scrolling_text {
+    width: 800px;
+  }
 }

@@ -9,16 +9,16 @@ export default function Footer() {
         className="mb-10"
         alt=""
       />
-      <div className="flex gap-9 items-center mb-20">
-        <p className="text-[28px] text-white m-0">Creative</p>
-        <div className="h-[24px] w-[1px] bg-white m-0"></div>
-        <p className="text-[28px] text-white m-0">TVC</p>
-        <div className="h-[24px] w-[1px] bg-white m-0"></div>
+      <div className="flex flex-col lg:flex-row lg:gap-9  gap-4 items-center mb-20">
+        <p className="text-5 lg:text-[28px] text-white m-0">Creative</p>
+        <div className="h-[24px] w-[1px] bg-white m-0 hidden lg:block"></div>
+        <p className="text-5 lg:text-[28px] text-white m-0">TVC</p>
+        <div className="h-[24px] w-[1px] bg-white m-0 hidden lg:block"></div>
 
-        <p className="text-[28px] text-white m-0">Social media</p>
-        <div className="h-[24px] w-[1px] bg-white m-0"></div>
+        <p className="text-5 lg:text-[28px] text-white m-0">Social media</p>
+        <div className="h-[24px] w-[1px] bg-white m-0 hidden lg:block"></div>
 
-        <p className="text-[28px] text-white m-0">Lead & sales</p>
+        <p className="text-5 lg:text-[28px] text-white m-0">Lead & sales</p>
       </div>
       <div className="container">
         <div
@@ -29,13 +29,14 @@ export default function Footer() {
             marginBottom: "1.5rem",
           }}
         ></div>
-        <div style={{ display: "flex", width: "100%" }}>
+        <div
+          style={{ display: "flex", width: "100%" }}
+          className="flex flex-col lg:flex-row justify-between items-center gap-10"
+        >
           <div
-            className="gap-4"
+            className="gap-4  overrideText"
             style={{
               display: "flex",
-              // alignItems: "center",
-              marginRight: "auto",
             }}
           >
             <Link href="https://www.linkedin.com/company/94152171/admin/feed/posts/">
@@ -87,13 +88,13 @@ export default function Footer() {
             </Link>
           </div>
 
-          <div style={{ textAlign: "right" }}>
+          <div>
             <p
               style={{
-                fontSize: "20px",
                 fontFamily: "Helvetica",
                 color: "white",
               }}
+              className="text-4 lg:text-5 overrideText"
             >
               18th Floor, No. 2182, 2nd Block,Trellis South, NSK <br />{" "}
               Salai,Arcot Road, Vadapalani, <br /> Chennai,Tamil Nadu, 600026

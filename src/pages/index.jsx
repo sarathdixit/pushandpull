@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+import "bootstrap/dist/css/bootstrap.min.css";
 import { motion, useAnimation } from "framer-motion";
 import HomeHeader from "@/components/HomeHeader";
 import { useEffect, useRef, useState } from "react";
@@ -53,35 +54,35 @@ export default function Index() {
           alt=""
           className="h-screen w-screen object-cover"
         />
-        <div className="absolute z-20 top-[30%] max-w-[1480px] left-0 right-0 px-14 m-auto">
-          <p className="text-white text-[32px] border-b-2 inline-block !font-bebas">
+        <div className="absolute z-20 top-[30%] max-w-[1480px] left-0 right-0 px-5 lg:px-5 lg:px-14 m-auto">
+          <p className="text-white text-[24px] lg:text-[32px] border-b-2 inline-block !font-bebas">
             PUSH AND PULL
           </p>
-          <p className="text-white text-[92px] leading-[50px] mt-6 !font-bebas">
+          <p className="text-white text-[54px] lg:text-[92px] leading-[28px] lg:leading-[50px] mt-6 !font-bebas">
             CREATIVE
           </p>
           <br />
-          <p className="text-white text-[92px] leading-[50px] !font-bebas">
+          <p className="text-white text-[54px] lg:text-[92px] leading-[28px] lg:leading-[50px] !font-bebas">
             TVC
           </p>
           <br />
-          <p className="text-white text-[92px] leading-[50px] !font-bebas">
+          <p className="text-white text-[54px] lg:text-[92px] leading-[28px] lg:leading-[50px] !font-bebas">
             SOCIAL MEDIA
           </p>
           <br />
-          <p className="text-white text-[92px] leading-[50px] !font-bebas">
+          <p className="text-white text-[54px] lg:text-[92px] leading-[28px] lg:leading-[50px] !font-bebas">
             LEADS & SALES
           </p>
         </div>
       </section>
 
       <section className="relative z-10 w-full bg-[#462D81]">
-        <div className=" max-w-[1480px] mx-auto px-10 py-[300px]">
-          <p className="text-[#eec627] text-[100px] text-center leading-[93.5px] !font-bebas">
+        <div className=" max-w-[1480px] mx-auto px-10 py-20 lg:py-[300px]">
+          <p className="text-[#eec627] text-[48px] lg:text-[100px] text-center eading-[28px] lg:leading-[93.5px] !font-bebas">
             PUSH&PULL NICHE INCLUDES THE QUALITY SERVICES WE PUSH THAT PULL
             CUSTOMERS TOWARDS US ARE
           </p>
-          <p className="text-[#fff] text-[33px] text-center leading-[48px] mt-[30px] !font-neue !font-[500]">
+          <p className="text-[#fff] text-[20px] lg:text-[33px] text-center leading-[32px] lg:leading-[48px] mt-[30px] !font-neue !font-[500]">
             We offer a wide range of digital marketing services to help
             businesses of all sizes achieve their growth objectives. Our
             services are designed to be flexible,customizable, and scalable to
@@ -109,19 +110,22 @@ export default function Index() {
       </section>
 
       <section className="relative z-10 bg-white">
-        <div className="max-w-[1480px] m-auto px-14 ">
+        <div className="max-w-[1480px] m-auto px-5 lg:px-14 ">
           <div
             style={{
               fontFamily: "Helvetica Light",
               borderBottom: "1px solid black",
             }}
-            className="grid grid-cols-2 "
+            className="grid grid-cols-2 pb-10 lg:border-none"
           >
-            <div className="col-span-2 md:col-span-1 py-[100px]">
+            <div className="col-span-2 md:col-span-1 pt-[60px] pb-[20px] lg:py-[100px]">
               <h4 style={{ fontSize: "44px" }}>Services</h4>
             </div>
-            <div className="col-span-2 md:col-span-1 py-[100px]">
-              <ul style={{ listStyle: "none", fontSize: "24px" }}>
+            <div className="col-span-2 md:col-span-1 lg:py-[100px]">
+              <ul
+                style={{ listStyle: "none", fontSize: "24px", padding: 0 }}
+                className="lg:!pl-[24px]"
+              >
                 <li
                   className="cursor-pointer !font-neue !font-[500]"
                   onClick={() =>
@@ -178,18 +182,21 @@ export default function Index() {
         </div>
       </section>
       <section className="relative z-10 bg-white" id="works">
-        <div className="max-w-[1480px] m-auto px-14 ">
+        <div className="max-w-[1480px] m-auto px-5 lg:px-14 ">
           <div
             style={{
               fontFamily: "Helvetica Light",
             }}
             className="grid grid-cols-2 "
           >
-            <div className="col-span-2 md:col-span-1 py-[100px]">
+            <div className="col-span-2 md:col-span-1  pt-[60px] pb-[20px] lg:py-[100px]">
               <h4 style={{ fontSize: "44px" }}>OUR WORK</h4>
             </div>
-            <div className="col-span-2 md:col-span-1 py-[100px]">
-              <ul style={{ listStyle: "none" }}>
+            <div className="col-span-2 md:col-span-1   lg:py-[100px]">
+              <ul
+                style={{ listStyle: "none", padding: 0 }}
+                className="lg:!pl-[24px]"
+              >
                 <li className="text-[30px] !font-neue !font-[500]">
                   Prepare to Be Pulled Into a World of Creative Brilliance!
                 </li>
@@ -209,7 +216,7 @@ export default function Index() {
 
       <section className="homeSec4  pt-18 pb-20 relative z-10 bg-white">
         <div className="max-w-[1480px] m-auto px-12">
-          <div className="gifsRow grid grid-cols-4 gap-4 items-center  mb-6">
+          <div className="gifsRow p-0 lg:p-[12px] grid grid-cols-1 lg:grid-cols-4 gap-4 items-center  mb-6">
             <div
               className="col-span-1 "
               onClick={() => handleNavigation("/samudhrika-lakshana")}
@@ -235,7 +242,7 @@ export default function Index() {
               <div className="worksTile4"></div>
             </div>
           </div>
-          <div className="gifsRow grid grid-cols-4 gap-4 items-center mb-[100px]">
+          <div className="gifsRow p-0 lg:p-[12px] grid grid grid-cols-1 lg:grid-cols-4 gap-4 items-center mb-[100px]">
             <div
               className=" col-span-1"
               onClick={() => handleNavigation("/f45")}
@@ -261,24 +268,24 @@ export default function Index() {
               <div className="worksTile8"></div>
             </div>
           </div>
-          <div className="py-20 ">
-            <p className="text-[55px] text-center leading-[58px] !font-neue">
+          <div className="py-0 lg:py-20">
+            <p className=" text-[32px] lg:text-[55px] text-center leading-10 lg:leading-[58px] !font-neue">
               Got questions, weird <br /> thoughts, or just want <br />{" "}
               to say hi?
             </p>
           </div>
-          <div className="bg-[#462D81] py-[121px] mb-[160px] mt-[100px]">
-            <p className="text-white text-center text-[50px] !font-neue">
+          <div className="bg-[#462D81] py-[121px] mb-20 mt-20 lg:mb-[160px] lg:mt-[100px]">
+            <p className="text-white text-center text-[32px] lg:text-[55px]  leading-10 lg:leading-[58px] !font-neue">
               Interested in working together?
             </p>
             <Link href="/contact">
-              <p className="text-white text-center underline cursor-pointer text-[40px] !font-neue font-[500]">
+              <p className="text-white text-center underline cursor-pointer text-[32px] lg:text-[40px] !font-neue font-[500]">
                 Talk to us
               </p>
             </Link>
           </div>
 
-          <div className="marquee_wrapper mb-28">
+          <div className="marquee_wrapper mb-20 lg:mb-28">
             <div className="marquee">
               <div className="marquee__group">
                 <img src="/assets/clients/rha.svg" alt="" />
@@ -313,7 +320,7 @@ export default function Index() {
               </div>
             </div>
           </div>
-          <Testimonials></Testimonials>
+          <Testimonials />
         </div>
       </section>
       <Footer></Footer>
