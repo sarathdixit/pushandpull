@@ -56,6 +56,16 @@ export default function App({ Component, pageProps }) {
     <main
       className={`${bebas.variable} ${helvetica.variable} ${helveticaNeue.variable}`}
     >
+      {/* Google Tag Manager (noscript) */}
+      <noscript>
+        <iframe
+          src="https://www.googletagmanager.com/ns.html?id=GTM-KVWS3LDT"
+          height="0"
+          width="0"
+          style={{ display: "none", visibility: "hidden" }}
+        ></iframe>
+      </noscript>
+      {/* End Google Tag Manager (noscript) */}
       <Component {...pageProps} />
     </main>
   );
