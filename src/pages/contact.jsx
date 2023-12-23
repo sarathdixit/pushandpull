@@ -52,7 +52,7 @@ const Index = () => {
     <>
       <HomeHeader
         hide
-        header="!bg-[#fff] border-b-2"
+        header="!bg-[#fff] lg:border-b-2"
         logo="/assets/colorLogo.svg"
         menu="/assets/colorMenu.svg"
         heading="!text-[#462D81]"

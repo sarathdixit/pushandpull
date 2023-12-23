@@ -5,13 +5,14 @@ import { motion } from "framer-motion";
 import { AnimtedImage } from "@/components/animatedImage";
 import HomeHeader from "@/components/HomeHeader";
 import ScrollText from "@/components/scrollText";
+import MobileSection from "../../components/mobile-section";
 
 const Website = () => {
   return (
     <>
       <HomeHeader
         hide
-        header="!bg-[#fff] border-b-2"
+        header="!bg-[#fff] lg:border-b-2"
         logo="/assets/colorLogo.svg"
         menu="/assets/colorMenu.svg"
         heading="!text-[#462D81]"
@@ -24,11 +25,22 @@ const Website = () => {
         className="relative z-10 bg-white pb-32"
         id="creativePage"
       >
+        <div className="mt-11 lg:hidden">
+          <MobileSection
+            heading={"Website"}
+            description={
+              " Get Noticed, Drive Traffic, and Boost Your Business."
+            }
+          />
+        </div>
         <div className="px-8 md:container m-auto pt-10">
-          <p className="text-[32px] font-[700] text-center mb-10">Website</p>
-          <div className="flex justify-center  mt-6 mb-8">
-            <ScrollText text=" Get Noticed, Drive Traffic, and Boost Your Business." />{" "}
+          <div className="hidden lg:block">
+            <p className="text-[32px] font-[700] text-center mb-10">Website</p>
+            <div className="flex justify-center  mt-6 mb-8">
+              <ScrollText text=" Get Noticed, Drive Traffic, and Boost Your Business." />{" "}
+            </div>
           </div>
+
           <p style={{ marginBottom: "3rem" }} className="mt-6 text-center">
             Welcome to Push &Pull, a web design company in Chennai is your
             one-stop shop for all your website needs. Whether you're looking to
@@ -40,8 +52,8 @@ const Website = () => {
             Here are some of the services we offer
           </p>
 
-          <div className="px-5 py-7 border-[1px] border-[#000] rounded-3xl m-auto">
-            <div className="flex flex-wrap  justify-around py-6">
+          <div className="lg:px-5 py-7 border-[1px] border-[#000] rounded-3xl m-auto">
+            <div className="flex flex-wrap  justify-around py-6 px-4 lg:px-0">
               <div className="relative md:order-last">
                 <div className="flex justify-center absolute -top-[90px] mt-6 w-[100%]">
                   <p className="bg-black text-white px-6 py-2">
@@ -75,7 +87,7 @@ const Website = () => {
               transition={{ duration: 1.5 }}
               viewport={{ once: true }}
             ></motion.div>
-            <div className="flex flex-wrap justify-around py-6">
+            <div className="flex flex-wrap justify-around py-6 px-4 lg:px-0">
               <div className="relative">
                 <div className="flex justify-center absolute -top-[90px] mt-6 w-[100%]">
                   <p className="bg-black text-white px-6 py-2">
@@ -108,7 +120,7 @@ const Website = () => {
               viewport={{ once: true }}
             ></motion.div>
 
-            <div className="flex flex-wrap justify-around py-6">
+            <div className="flex flex-wrap justify-around py-6 px-4 lg:px-0">
               <div className="relative md:order-last">
                 <div className="flex justify-center absolute -top-[90px] mt-6 w-[100%]">
                   <p className="bg-black text-white px-6 py-2">
@@ -141,7 +153,7 @@ const Website = () => {
               viewport={{ once: true }}
             ></motion.div>
 
-            <div className="flex flex-wrap justify-around py-6">
+            <div className="flex flex-wrap justify-around py-6 px-4 lg:px-0">
               <div className="relative">
                 <div className="flex justify-center absolute -top-[90px] mt-6 w-[100%]">
                   <p className="bg-black text-white px-6 py-2">
@@ -173,7 +185,7 @@ const Website = () => {
               transition={{ duration: 1.5 }}
               viewport={{ once: true }}
             ></motion.div>
-            <div className="flex flex-wrap justify-around py-6">
+            <div className="flex flex-wrap justify-around py-6 px-4 lg:px-0">
               <div className="relative md:order-last">
                 <div className="flex justify-center absolute -top-[90px] mt-6 w-[100%]">
                   <p className="bg-black text-white px-6 py-2">
@@ -208,7 +220,7 @@ const Website = () => {
               viewport={{ once: true }}
             ></motion.div>
 
-            <div className="flex flex-wrap justify-around py-6">
+            <div className="flex flex-wrap justify-around py-6 px-4 lg:px-0">
               <div className="relative">
                 <div className="flex justify-center absolute -top-[90px] mt-6 w-[100%]">
                   <p className="bg-black text-white px-6 py-2">
@@ -240,7 +252,7 @@ const Website = () => {
               transition={{ duration: 1.5 }}
               viewport={{ once: true }}
             ></motion.div>
-            <div className="flex flex-wrap justify-around py-6">
+            <div className="flex flex-wrap justify-around py-6 px-4 lg:px-0">
               <div className="relative md:order-last">
                 <div className="flex justify-center absolute -top-[90px] mt-6 w-[100%]">
                   <p className="bg-black text-white px-6 py-2">

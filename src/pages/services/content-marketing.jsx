@@ -2,13 +2,14 @@ import HomeHeader from "@/components/HomeHeader";
 import Footer from "@/components/footer";
 import ScrollText from "@/components/scrollText";
 import React from "react";
+import MobileSection from "../../components/mobile-section";
 
 const InfluencerMarketing = () => {
   return (
     <>
       <HomeHeader
         hide
-        header="!bg-[#fff] border-b-2"
+        header="!bg-[#fff] lg:border-b-2"
         logo="/assets/colorLogo.svg"
         menu="/assets/colorMenu.svg"
         heading="!text-[#462D81]"
@@ -21,14 +22,27 @@ const InfluencerMarketing = () => {
         className="relative z-10 bg-white pb-16"
         id="influencerMarketing"
       >
+        <div className="mt-11 lg:hidden">
+          <MobileSection
+            heading={"Content Marketing"}
+            description={
+              "Content That Captivate, Impress and Inspire. Let Us Help You Create Your Next Masterpiece"
+            }
+          />
+        </div>
         <div className="container mt-10">
-          <p className="text-[32px] font-[700] text-center mb-10">
-            Content Marketing
-          </p>
-          <div className="flex justify-center mb-2">
-            <ScrollText text="Content That Captivate, Impress and Inspire. Let Us Help You Create Your Next Masterpiece" />
+          <div className="hidden lg:block">
+            <p className="text-[32px] font-[700] text-center mb-10">
+              {" "}
+              Content Marketing
+            </p>
+            <div className="flex justify-center  mt-6 mb-8">
+              <ScrollText text="Content That Captivate, Impress and Inspire. Let Us Help You Create Your Next Masterpiece" />
+            </div>
           </div>
-          <p className=" mb-4 text-center mt-16">
+
+          <div className="flex justify-center mb-2"></div>
+          <p className=" mb-4 text-center lg:mt-16">
             Content marketing effectively raises brand recognition, interacts
             with your target audience, and generates conversions. Our team of
             experts can write blogs, product descriptions, websites, social
@@ -54,7 +68,7 @@ const InfluencerMarketing = () => {
             frequently your website text, which is why product descriptions are
             crucial for turning visitors into consumers.
           </p>
-          <div className="grid grid-cols-3 gap-4 items-center mb-12">
+          <div className="grid  grid-cols-1 lg:grid-cols-3 gap-4 items-center mb-12">
             <div className="col-span-1">
               {/* <img src="/assets/IM1.svg" alt="" /> */}
               <video src="/assets/videos/Kaaviya Video.mp4" controls></video>

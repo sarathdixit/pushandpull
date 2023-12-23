@@ -5,13 +5,14 @@ import { motion } from "framer-motion";
 import { AnimtedImage } from "@/components/animatedImage";
 import HomeHeader from "@/components/HomeHeader";
 import ScrollText from "@/components/scrollText";
+import MobileSection from "../../components/mobile-section";
 
 const Creative = () => {
   return (
     <>
       <HomeHeader
         hide
-        header="!bg-[#fff] border-b-2"
+        header="!bg-[#fff] lg:border-b-2"
         logo="/assets/colorLogo.svg"
         menu="/assets/colorMenu.svg"
         heading="!text-[#462D81]"
@@ -24,11 +25,20 @@ const Creative = () => {
         className="relative z-10 bg-white pb-32"
         id="creativePage"
       >
+        <div className="mt-11 lg:hidden">
+          <MobileSection
+            heading={"Creative"}
+            description={
+              "Stand Out in the Digital Crowd with Our Eye-Catching Graphics"
+            }
+          />
+        </div>
         <div className="px-8 md:container m-auto pt-10">
-          <p className="text-[32px] font-[700] text-center">Creative</p>
-
-          <div className="flex justify-center mb-16 mt-10">
-            <ScrollText text="Stand Out in the Digital Crowd with Our Eye-Catching Graphics" />{" "}
+          <div className="hidden lg:block">
+            <p className="text-[32px] font-[700] text-center">Creative</p>
+            <div className="flex justify-center mb-16 mt-10">
+              <ScrollText text="Stand Out in the Digital Crowd with Our Eye-Catching Graphics" />{" "}
+            </div>
           </div>
           <p style={{ marginBottom: "3rem" }} className="text-center">
             To effectively convey a message to your target audience, graphic
@@ -40,10 +50,10 @@ const Creative = () => {
             include :
           </p>
 
-          <div className="px-5 py-7 border-[1px] border-[#000] rounded-3xl m-auto">
+          <div className="lg:px-5 lg:py-7 border-[1px] border-[#000] rounded-3xl m-auto">
             <div className="flex flex-wrap  justify-around py-6">
               <div className="relative md:order-last">
-                <div className="flex justify-center absolute -top-[90px] mt-6 w-[100%]">
+                <div className="flex justify-center absolute top-[-67px] lg:-top-[90px] mt-6 w-[100%]">
                   <p className="bg-black text-white px-6 py-2">
                     Brand Identity
                   </p>
@@ -72,7 +82,7 @@ const Creative = () => {
               transition={{ duration: 1.5 }}
               viewport={{ once: true }}
             ></motion.div>
-            <div className="flex flex-wrap justify-around py-6">
+            <div className="flex flex-wrap justify-around py-6 px-4 lg:px-0">
               <div className="relative">
                 <div className="flex justify-center absolute -top-[90px] mt-6 w-[100%]">
                   <p className="bg-black text-white px-6 py-2">Print Design</p>
@@ -101,7 +111,7 @@ const Creative = () => {
               viewport={{ once: true }}
             ></motion.div>
 
-            <div className="flex flex-wrap justify-around py-6">
+            <div className="flex flex-wrap justify-around py-6 px-4 lg:px-0">
               <div className="relative md:order-last">
                 <div className="flex justify-center absolute -top-[90px] mt-6 w-[100%]">
                   <p className="bg-black text-white px-6 py-2">
@@ -134,7 +144,7 @@ const Creative = () => {
               viewport={{ once: true }}
             ></motion.div>
 
-            <div className="flex flex-wrap justify-around py-6">
+            <div className="flex flex-wrap justify-around py-6 px-4 lg:px-0">
               <div className="relative">
                 <div className="flex justify-center absolute -top-[90px] mt-6 w-[100%]">
                   <p className="bg-black text-white px-6 py-2">Print Design</p>
@@ -164,7 +174,7 @@ const Creative = () => {
               transition={{ duration: 1.5 }}
               viewport={{ once: true }}
             ></motion.div>
-            <div className="flex flex-wrap justify-around py-6">
+            <div className="flex flex-wrap justify-around py-6 px-4 lg:px-0">
               <div className="relative md:order-last">
                 <div className="flex justify-center absolute -top-[90px] mt-6 w-[100%]">
                   <p className="bg-black text-white px-6 py-2">
@@ -197,7 +207,7 @@ const Creative = () => {
               viewport={{ once: true }}
             ></motion.div>
 
-            <div className="flex flex-wrap justify-around py-6">
+            <div className="flex flex-wrap justify-around py-6 px-4 lg:px-0">
               <div className="relative">
                 <div className="flex justify-center absolute -top-[90px] mt-6 w-[100%]">
                   <p className="bg-black text-white px-6 py-2">
@@ -238,7 +248,7 @@ const Creative = () => {
               viewport={{ once: true }}
             ></motion.div>
 
-            <div className="flex flex-wrap justify-around py-6">
+            <div className="flex flex-wrap justify-around py-6 px-4 lg:px-0">
               <div className="relative">
                 <div className="flex justify-center absolute -top-[90px] mt-6 w-[100%]">
                   <p className="bg-black text-white px-6 py-2">Photography</p>
@@ -263,7 +273,7 @@ const Creative = () => {
               transition={{ duration: 1.5 }}
               viewport={{ once: true }}
             ></motion.div>
-            <div className="flex flex-wrap justify-around py-6">
+            <div className="flex flex-wrap justify-around py-6 px-4 lg:px-0">
               <div className="relative">
                 <div className="flex justify-center absolute -top-[90px] mt-6 w-[100%]">
                   <p className="bg-black text-white px-6 py-2">
@@ -294,7 +304,7 @@ const Creative = () => {
               viewport={{ once: true }}
             ></motion.div>
 
-            <div className="flex flex-wrap justify-around py-6">
+            <div className="flex flex-wrap justify-around py-6 px-4 lg:px-0">
               <div className="relative md:order-last">
                 <div className="flex justify-center absolute -top-[90px] mt-6 w-[100%]">
                   <p className="bg-black text-white px-6 py-2">
@@ -327,7 +337,7 @@ const Creative = () => {
               viewport={{ once: true }}
             ></motion.div>
 
-            <div className="flex flex-wrap justify-around py-6">
+            <div className="flex flex-wrap justify-around py-6 px-4 lg:px-0">
               <div className="relative">
                 <div className="flex justify-center absolute -top-[90px] mt-6 w-[100%]">
                   <p className="bg-black text-white px-6 py-2">
@@ -360,7 +370,7 @@ const Creative = () => {
               viewport={{ once: true }}
             ></motion.div>
 
-            <div className="flex flex-wrap justify-around py-6">
+            <div className="flex flex-wrap justify-around py-6 px-4 lg:px-0">
               <div className="relative">
                 <div className="flex justify-center absolute -top-[90px] mt-6 w-[100%]">
                   <p className="bg-black text-white px-6 py-2">
@@ -384,7 +394,7 @@ const Creative = () => {
               transition={{ duration: 1.5 }}
               viewport={{ once: true }}
             ></motion.div>
-            <div className="flex flex-wrap justify-around py-6">
+            <div className="flex flex-wrap justify-around py-6 px-4 lg:px-0">
               <div className="relative">
                 <div className="flex justify-center absolute -top-[90px] mt-6 w-[100%]">
                   <p className="bg-black text-white px-6 py-2">
@@ -414,7 +424,7 @@ const Creative = () => {
               viewport={{ once: true }}
             ></motion.div>
 
-            <div className="flex flex-wrap justify-around py-6">
+            <div className="flex flex-wrap justify-around py-6 px-4 lg:px-0">
               <div className="relative md:order-last">
                 <div className="flex justify-center absolute -top-[90px] mt-6 w-[100%]">
                   <p className="bg-black text-white px-6 py-2">Scriptwriting</p>
@@ -425,7 +435,7 @@ const Creative = () => {
               <motion.div
                 initial={{ height: 0 }}
                 whileInView={{ height: "auto" }}
-                className="w-[0.82px] bg-black"
+                className="w-[0.82px] bg-black hidden lg:block"
                 transition={{ duration: 1, delay: 1.5 }}
                 viewport={{ once: true }}
               ></motion.div>
@@ -443,7 +453,7 @@ const Creative = () => {
               viewport={{ once: true }}
             ></motion.div>
 
-            <div className="flex flex-wrap justify-around py-6">
+            <div className="flex flex-wrap justify-around py-6 px-4 lg:px-0">
               <div className="relative">
                 <div className="flex justify-center absolute -top-[90px] mt-6 w-[100%]">
                   <p className="bg-black text-white px-6 py-2">
@@ -474,7 +484,7 @@ const Creative = () => {
               viewport={{ once: true }}
             ></motion.div>
 
-            <div className="flex flex-wrap justify-around py-6">
+            <div className="flex flex-wrap justify-around py-6 px-4 lg:px-0">
               <div className="relative md:order-last">
                 <div className="flex justify-center absolute -top-[90px] mt-6 w-[100%]">
                   <p className="bg-black text-white px-6 py-2">
@@ -506,7 +516,7 @@ const Creative = () => {
               transition={{ duration: 1.5 }}
               viewport={{ once: true }}
             ></motion.div>
-            <div className="flex flex-wrap justify-around py-6">
+            <div className="flex flex-wrap justify-around py-6 px-4 lg:px-0">
               <div className="relative">
                 <div className="flex justify-center absolute -top-[90px] mt-6 w-[100%]">
                   <p className="bg-black text-white px-6 py-2">
@@ -531,7 +541,7 @@ const Creative = () => {
               transition={{ duration: 1.5 }}
               viewport={{ once: true }}
             ></motion.div>
-            <div className="flex flex-wrap justify-around py-6">
+            <div className="flex flex-wrap justify-around py-6 px-4 lg:px-0">
               <div className="relative">
                 <div className="flex justify-center absolute -top-[90px] mt-6 w-[100%]">
                   <p className="bg-black text-white px-6 py-2">
@@ -561,7 +571,7 @@ const Creative = () => {
               viewport={{ once: true }}
             ></motion.div>
 
-            <div className="flex flex-wrap justify-around py-6">
+            <div className="flex flex-wrap justify-around py-6 px-4 lg:px-0">
               <div className="relative md:order-last">
                 <div className="flex justify-center absolute -top-[90px] mt-6 w-[100%]">
                   <p className="bg-black text-white px-6 py-2">
@@ -574,7 +584,7 @@ const Creative = () => {
               <motion.div
                 initial={{ height: 0 }}
                 whileInView={{ height: "auto" }}
-                className="w-[0.82px] bg-black"
+                className="w-[0.82px] bg-black hidden lg:block"
                 transition={{ duration: 1, delay: 1.5 }}
                 viewport={{ once: true }}
               ></motion.div>
@@ -592,7 +602,7 @@ const Creative = () => {
               viewport={{ once: true }}
             ></motion.div>
 
-            <div className="flex flex-wrap justify-around py-6">
+            <div className="flex flex-wrap justify-around py-6 px-4 lg:px-0">
               <div className="relative">
                 <div className="flex justify-center absolute -top-[90px] mt-6 w-[100%]">
                   <p className="bg-black text-white px-6 py-2">
@@ -622,7 +632,7 @@ const Creative = () => {
               viewport={{ once: true }}
             ></motion.div>
 
-            <div className="flex flex-wrap justify-around py-6">
+            <div className="flex flex-wrap justify-around py-6 px-4 lg:px-0">
               <div className="relative md:order-last">
                 <div className="flex justify-center absolute -top-[90px] mt-6 w-[100%]">
                   <p className="bg-black text-white px-6 py-2">

@@ -7,13 +7,13 @@ export default function Index() {
     <>
       <HomeHeader
         hide
-        header="!bg-[#fff] border-b-2"
+        header="!bg-[#fff] lg:border-b-2"
         logo="/assets/colorLogo.svg"
         menu="/assets/colorMenu.svg"
         heading="!text-[#462D81]"
       />
       <main className="min-h-screen z-10 relative bg-white">
-        <div className="max-w-[1480px] m-auto px-[56px] pt-[200px]">
+        <div className="max-w-[1480px] m-auto px-[36px] lg:px-[56px] pt-[200px]">
           <p className="border-b border-b-[#000] pb-2 text-[30px]">F45</p>
           <p className="text-center mt-10">
             For F45 Training Gym in Nungambakkam, KNK Road, we successfully

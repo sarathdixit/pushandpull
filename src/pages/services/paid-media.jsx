@@ -5,13 +5,14 @@ import { motion } from "framer-motion";
 import { AnimtedImage } from "@/components/animatedImage";
 import HomeHeader from "@/components/HomeHeader";
 import ScrollText from "@/components/scrollText";
+import MobileSection from "../../components/mobile-section";
 
 const Creative = () => {
   return (
     <>
       <HomeHeader
         hide
-        header="!bg-[#fff] border-b-2"
+        header="!bg-[#fff] lg:border-b-2"
         logo="/assets/colorLogo.svg"
         menu="/assets/colorMenu.svg"
         heading="!text-[#462D81]"
@@ -24,11 +25,24 @@ const Creative = () => {
         className="relative z-10 bg-white pb-32"
         id="creativePage"
       >
+        <div className="mt-11 lg:hidden">
+          <MobileSection
+            heading={" Paid Media"}
+            description={
+              "Maximize Brand Awareness, Visibility, Lead Generation, and Sales with Our Customized Paid Media Campaign"
+            }
+          />
+        </div>
         <div className="px-8 md:container m-auto pt-10">
-          <p className="text-[32px] font-[700] text-center mb-10">Paid Media</p>
-          <div className="flex justify-center  mt-6 mb-8">
-            <ScrollText text="Maximize Brand Awareness, Visibility, Lead Generation, and Sales with Our Customized Paid Media Campaign" />
+          <div className="hidden lg:block">
+            <p className="text-[32px] font-[700] text-center mb-10">
+              Paid Media
+            </p>
+            <div className="flex justify-center  mt-6 mb-8">
+              <ScrollText text="Maximize Brand Awareness, Visibility, Lead Generation, and Sales with Our Customized Paid Media Campaign" />
+            </div>
           </div>
+
           <p style={{ marginBottom: "3rem" }} className="mt-6 text-center">
             Paid media is a successful technique to raise brand recognition,
             visibility, lead generation, and revenue. To assist you in achieving
@@ -115,7 +129,7 @@ const Creative = () => {
               <motion.div
                 initial={{ height: 0 }}
                 whileInView={{ height: "auto" }}
-                className="w-[0.82px] bg-black"
+                className="w-[0.82px] bg-black hidden lg:block"
                 transition={{ duration: 1, delay: 1.5 }}
                 viewport={{ once: true }}
               ></motion.div>
@@ -143,7 +157,7 @@ const Creative = () => {
               <motion.div
                 initial={{ height: 0 }}
                 whileInView={{ height: "auto" }}
-                className=" w-[0.82px] bg-black"
+                className=" w-[0.82px] bg-black hidden lg:block"
                 transition={{ duration: 1, delay: 1.5 }}
                 viewport={{ once: true }}
               ></motion.div>

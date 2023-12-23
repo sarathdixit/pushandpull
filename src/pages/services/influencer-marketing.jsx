@@ -2,17 +2,19 @@ import HomeHeader from "@/components/HomeHeader";
 import Footer from "@/components/footer";
 import ScrollText from "@/components/scrollText";
 import React from "react";
+import MobileSection from "../../components/mobile-section";
 
 const InfluencerMarketing = () => {
   return (
     <>
       <HomeHeader
         hide
-        header="!bg-[#fff] border-b-2"
+        header="!bg-[#fff] lg:border-b-2"
         logo="/assets/colorLogo.svg"
         menu="/assets/colorMenu.svg"
         heading="!text-[#462D81]"
       />
+
       <section
         style={{
           paddingTop: "8rem",
@@ -20,13 +22,23 @@ const InfluencerMarketing = () => {
         }}
         className="relative z-10 bg-white pb-16"
       >
-        <div className="container mt-10">
-          <p className="text-[32px] font-[700] text-center mb-10">
-            Influencer Marketing
-          </p>
-          <ScrollText text="Utilise Influencer Marketing to Expand Your Business and Get Noticed!" />
+        <div className="mt-11 lg:hidden">
+          <MobileSection
+            heading={" Influencer Marketing"}
+            description={
+              "Utilise Influencer Marketing to Expand Your Business and Get Noticed!"
+            }
+          />
+        </div>
+        <div className="container mt-[40px] lg:mt-10">
+          <div className="hidden lg:block">
+            <p className="text-[32px] font-[700] text-center mb-10">
+              Influencer Marketing
+            </p>
+            <ScrollText text="Utilise Influencer Marketing to Expand Your Business and Get Noticed!" />
+          </div>
 
-          <p className=" mb-4 text-center mt-16">
+          <p className=" mb-4 text-center lg:mt-16">
             In the current digital era, social media has become a potent tool
             for businesses to advertise their goods and services. Influencer
             marketing is one of the best strategies for accomplishing this.
@@ -39,7 +51,7 @@ const InfluencerMarketing = () => {
             their interests, hobbies, or niche, these people—known as
             influencers—have developed a reputation and an ardent following.
           </p>
-          <div className="grid grid-cols-3 gap-4 items-center mb-12">
+          <div className="grid  grid-cols-1 lg:grid-cols-3 gap-4 items-center mb-12">
             <div className="col-span-1">
               {/* <img src="/assets/IM1.svg" alt="" /> */}
               <video src="/assets/videos/Kaaviya Video.mp4" controls></video>

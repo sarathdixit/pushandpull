@@ -2,13 +2,14 @@ import HomeHeader from "@/components/HomeHeader";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import React from "react";
+import MobileSection from "../components/mobile-section";
 
 const About = () => {
   return (
     <>
       <HomeHeader
         hide
-        header="!bg-[#fff] border-b-2"
+        header="!bg-[#fff] lg:border-b-2"
         logo="/assets/colorLogo.svg"
         menu="/assets/colorMenu.svg"
         heading="!text-[#462D81]"
@@ -20,7 +21,7 @@ const About = () => {
         }}
         className="relative z-10 bg-white"
       >
-        <div className="container">
+        <div className="container hidden lg:block">
           <p className="text-[32px] font-[700] text-center mb-10">About</p>
           <div className="flex justify-center  mt-6 mb-2">
             <div className="bg-black text-white px-6 py-2">
@@ -30,6 +31,14 @@ const About = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div className="mt-11 lg:hidden">
+          <MobileSection
+            heading={"About"}
+            description={
+              "Push The Buttons and Pull Your Socks Up For The Dynamic Digital Experience"
+            }
+          />
         </div>
         <section className="mt-12">
           <video
@@ -41,7 +50,7 @@ const About = () => {
           />
         </section>
 
-        <section className="mt-20 pb-20">
+        <section className="mt-20 pb-20 px-4 lg:px-0">
           <p className="mt-6 max-w-[1020px] m-auto mb-4 text-center">
             Welcome to Push & Pull, a dynamic digital marketing agency in
             Chennai, where creativity meets digital advertising and marketing

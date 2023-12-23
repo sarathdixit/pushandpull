@@ -5,13 +5,14 @@ import { motion } from "framer-motion";
 import { AnimtedImage } from "@/components/animatedImage";
 import HomeHeader from "@/components/HomeHeader";
 import ScrollText from "@/components/scrollText";
+import MobileSection from "../../components/mobile-section";
 
 const Index = () => {
   return (
     <>
       <HomeHeader
         hide
-        header="!bg-[#fff] border-b-2"
+        header="!bg-[#fff] lg:border-b-2"
         logo="/assets/colorLogo.svg"
         menu="/assets/colorMenu.svg"
         heading="!text-[#462D81]"
@@ -24,12 +25,20 @@ const Index = () => {
         className="relative z-10 bg-white pb-32"
         id="creativePage"
       >
+        <div className="mt-11 lg:hidden">
+          <MobileSection
+            heading={" Search Engine Optimization"}
+            description={" Boost Your Online Presence"}
+          />
+        </div>
         <div className="px-8 md:container m-auto pt-10">
-          <p className="text-[32px] font-[700] text-center mb-10">
-            Search Engine Optimization
-          </p>
-          <div className="flex justify-center  mt-6 mb-8">
-            <ScrollText text=" Boost Your Online Presence" />
+          <div className="hidden lg:block">
+            <p className="text-[32px] font-[700] text-center mb-10">
+              Search Engine Optimization
+            </p>
+            <div className="flex justify-center  mt-6 mb-8">
+              <ScrollText text=" Boost Your Online Presence" />
+            </div>
           </div>
           <p style={{ marginBottom: "3rem" }} className="mt-6 text-center">
             Are you ready to elevate your online presence and dominate the

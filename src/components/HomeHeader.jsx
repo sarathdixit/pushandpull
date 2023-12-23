@@ -3,6 +3,7 @@ import CustomImage from "./image";
 import { motion } from "framer-motion";
 import { useRouter } from "next/router";
 import Link from "next/link";
+import BrandingText from "./brandingText";
 export default function HomeHeader({
   hide = false,
   logo = "/assets/logo.svg",
@@ -43,53 +44,12 @@ export default function HomeHeader({
       <header
         className={`fixed z-20 w-full  ${getClassName()} ${header} transition-colors duration-500`}
       >
-        <div className="py-8 flex items-center justify-end lg:justify-between max-w-[1480px] m-auto px-10">
+        <div className="p-4 pb-0 !pt-[30px]  lg:!py-8 flex items-center justify-end lg:justify-between max-w-[1480px] m-auto ">
           <div className="relative hidden lg:block">
-            <div className="positivity">
-              <span
-                className={`positivity__alone ${heading} font-helvetica font-[500] text-[20px]  ${
-                  !hide ? "text-white" : "text-black"
-                }`}
-              >
-                Branding{" "}
-                <span className={`${!hide ? "text-[#eec627]" : "text-black"}`}>
-                  X
-                </span>
-              </span>
-              <div className="positivity__words text-white">
-                <span
-                  className={`change font-helvetica  font-[500] text-[20px] ${
-                    !hide ? "text-white" : "text-black"
-                  }`}
-                >
-                  Grateful
-                </span>
-                <span
-                  className={`change font-helvetica  font-[500] text-[20px] ${
-                    !hide ? "text-white" : "text-black"
-                  }`}
-                >
-                  Humble
-                </span>
-                <span
-                  className={`change font-helvetica  font-[500] text-[20px] ${
-                    !hide ? "text-white" : "text-black"
-                  }`}
-                >
-                  Kind
-                </span>
-                <span
-                  className={`change font-helvetica  font-[500] text-[20px] ${
-                    !hide ? "text-white" : "text-black"
-                  }`}
-                >
-                  Wise
-                </span>
-              </div>
-            </div>
+            <BrandingText heading={heading} hide={hide} />
           </div>
           <div
-            className={`!absolute left-0 right-0 w-full flex justify-center  `}
+            className={`!absolute left-4 lg:left-0 right-0 w-full flex lg:justify-center  `}
           >
             <Link href="/">
               <CustomImage
@@ -106,6 +66,12 @@ export default function HomeHeader({
             />
           </div>
         </div>
+        <div className="flex justify-center mt-2 relative right-9 lg:hidden">
+          <div className="relative w-[108px]">
+            <BrandingText heading={heading} hide={hide} />
+          </div>
+        </div>
+        <div className="bg-black h-[1px] w-[96%] m-auto !mt-[10px] lg:hidden" />
       </header>
       {isOpen && (
         <motion.div
@@ -179,7 +145,7 @@ export default function HomeHeader({
             />
           </motion.div>
         </motion.div>
-      )}
+      )}{" "}
     </>
   );
 }

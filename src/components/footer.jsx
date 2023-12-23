@@ -2,23 +2,27 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="sticky bottom-0  left-0 w-full bg-[#462D81] grid place-items-center py-12 z-0">
+    <footer className="lg:sticky bottom-0  left-0 w-full bg-[#462D81] grid place-items-center py-12 z-0">
       <img
-        style={{ width: "15%", marginTop: "2rem" }}
+        style={{ marginTop: "2rem" }}
         src="/assets/white-logo.svg"
-        className="mb-10"
+        className="mb-10 lg:w-[15%]"
         alt=""
       />
-      <div className="flex flex-col lg:flex-row lg:gap-9  gap-4 items-center mb-20">
-        <p className="text-5 lg:text-[28px] text-white m-0">Creative</p>
-        <div className="h-[24px] w-[1px] bg-white m-0 hidden lg:block"></div>
-        <p className="text-5 lg:text-[28px] text-white m-0">TVC</p>
-        <div className="h-[24px] w-[1px] bg-white m-0 hidden lg:block"></div>
+      <div className="flex gap-2 lg:!gap-5 items-center mb-8 lg:mb-20">
+        <p className="text-[16px] lg:text-[20px] text-white m-0">Creative</p>
+        <div className="h-[16px]  lg:h-[24px] w-[1px] bg-white m-0 "></div>
+        <p className="text-[16px] lg:text-[20px] text-white m-0">TVC</p>
+        <div className="h-[16px]  lg:h-[24px] w-[1px] bg-white m-0 "></div>
 
-        <p className="text-5 lg:text-[28px] text-white m-0">Social media</p>
-        <div className="h-[24px] w-[1px] bg-white m-0 hidden lg:block"></div>
+        <p className="text-[16px] lg:text-[20px] text-white m-0">
+          Social media
+        </p>
+        <div className="h-[16px]  lg:h-[24px] w-[1px] bg-white m-0 "></div>
 
-        <p className="text-5 lg:text-[28px] text-white m-0">Lead & sales</p>
+        <p className="text-[16px] lg:text-[20px] text-white m-0">
+          Lead & sales
+        </p>
       </div>
       <div className="container">
         <div
@@ -94,7 +98,7 @@ export default function Footer() {
                 fontFamily: "Helvetica",
                 color: "white",
               }}
-              className="text-4 lg:text-5 overrideText"
+              className="text-4 lg:!text-[16px] overrideText"
             >
               18th Floor, No. 2182, 2nd Block,Trellis South, NSK <br />{" "}
               Salai,Arcot Road, Vadapalani, <br /> Chennai,Tamil Nadu, 600026

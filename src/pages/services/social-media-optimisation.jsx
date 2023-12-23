@@ -5,13 +5,14 @@ import { motion } from "framer-motion";
 import { AnimtedImage } from "@/components/animatedImage";
 import HomeHeader from "@/components/HomeHeader";
 import ScrollText from "@/components/scrollText";
+import MobileSection from "../../components/mobile-section";
 
 const Index = () => {
   return (
     <>
       <HomeHeader
         hide
-        header="!bg-[#fff] border-b-2"
+        header="!bg-[#fff] lg:border-b-2"
         logo="/assets/colorLogo.svg"
         menu="/assets/colorMenu.svg"
         heading="!text-[#462D81]"
@@ -24,15 +25,25 @@ const Index = () => {
         className="relative z-10 bg-white pb-32"
         id="creativePage"
       >
+        <div className="mt-11 lg:hidden">
+          <MobileSection
+            heading={" Social Media Optimisation"}
+            description={
+              "Maximize Your Reach and Engagement on Social Media with Our Proven Strategies"
+            }
+          />
+        </div>
         <div className="px-8 md:container m-auto pt-10">
-          <p className="text-[32px] font-[700] text-center mb-10">
-            Social Media Optimisation
-          </p>
-          <div className="flex justify-center  mt-6 mb-8">
-            <ScrollText
-              text="Maximize Your Reach and Engagement on Social Media with Our
+          <div className="hidden lg:block">
+            <p className="text-[32px] font-[700] text-center mb-10">
+              Social Media Optimisation
+            </p>
+            <div className="flex justify-center  mt-6 mb-8">
+              <ScrollText
+                text="Maximize Your Reach and Engagement on Social Media with Our
                 Proven Strategies"
-            />
+              />
+            </div>
           </div>
           <p style={{ marginBottom: "3rem" }} className="mt-6 text-center">
             Social media is a powerful tool for building brand awareness,
