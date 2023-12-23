@@ -97,7 +97,7 @@ const Index = () => {
           </div>
         </div>
 
-        <div className="mt-11 lg:hidden">
+        <div className="mt-[64px] lg:hidden">
           <MobileSection heading={"Services"} description={""} />
           <div className="flex justify-end mr-10">
             <div>

@@ -77,7 +77,7 @@ const Index = () => {
 
             <div className="flex-1">
               <div
-                className="border !border-black rounded-3xl p-16"
+                className="border !border-black rounded-3xl p-5 lg:p-16"
                 style={{ borderColor: "#000 !important" }}
               >
                 <p className="font-helvetica uppercase text-[24px] font-[400]">

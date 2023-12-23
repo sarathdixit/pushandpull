@@ -22,7 +22,7 @@ const InfluencerMarketing = () => {
         className="relative z-10 bg-white pb-16"
         id="influencerMarketing"
       >
-        <div className="mt-11 lg:hidden">
+        <div className="mt-[64px] lg:hidden">
           <MobileSection
             heading={"Content Marketing"}
             description={
@@ -32,7 +32,7 @@ const InfluencerMarketing = () => {
         </div>
         <div className="container mt-10">
           <div className="hidden lg:block">
-            <p className="text-[32px] font-[700] text-center mb-10">
+            <p className="text-[32px] font-[700] lg:text-center mb-10">
               {" "}
               Content Marketing
             </p>
@@ -42,14 +42,14 @@ const InfluencerMarketing = () => {
           </div>
 
           <div className="flex justify-center mb-2"></div>
-          <p className=" mb-4 text-center lg:mt-16">
+          <p className=" mb-4 lg:text-center lg:mt-16">
             Content marketing effectively raises brand recognition, interacts
             with your target audience, and generates conversions. Our team of
             experts can write blogs, product descriptions, websites, social
             media platforms, marketplaces, Quora, and Reddit threads for your
             marketing goals.
           </p>
-          <p className="mt-6  mb-20 text-center">
+          <p className="mt-6  mb-20 lg:text-center">
             Our skilled writing staff specializes in producing top-notch
             material that appeals to your target market. We employ the most
             current SEO strategies to create blog posts that are search
@@ -81,13 +81,13 @@ const InfluencerMarketing = () => {
             </div>
           </div>
 
-          <p className="mt-20  mb-4 text-center">
+          <p className="mt-20  mb-4 lg:text-center">
             Building brand recognition and interacting with your target audience
             may be accomplished using social media content. We use persuasive
             language, excellent photos, and other strategies to make your
             marketplace content stand out in a crowded market.
           </p>
-          <p className="mt-6  mb-4 text-center">
+          <p className="mt-6  mb-4 lg:text-center">
             We at Push & Pull, a social media marketing agency and SEO experts
             in Chennai, are dedicated to providing top-notch content that draws
             in your audience and encourages conversions. Our writing staff has
@@ -97,7 +97,7 @@ const InfluencerMarketing = () => {
             tailored content strategy that satisfies your specific requirements
             and aids in accomplishing your marketing objectives.
           </p>
-          <p className="mt-6   mb-4 text-center">
+          <p className="mt-6   mb-4 lg:text-center">
             Are you prepared to advance your content marketing? Contact us right
             now to arrange a meeting with one of our specialists. We look
             forward to hearing from you!

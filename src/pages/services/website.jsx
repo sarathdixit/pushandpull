@@ -25,7 +25,7 @@ const Website = () => {
         className="relative z-10 bg-white pb-32"
         id="creativePage"
       >
-        <div className="mt-11 lg:hidden">
+        <div className="mt-[64px] lg:hidden">
           <MobileSection
             heading={"Website"}
             description={
@@ -35,13 +35,15 @@ const Website = () => {
         </div>
         <div className="px-8 md:container m-auto pt-10">
           <div className="hidden lg:block">
-            <p className="text-[32px] font-[700] text-center mb-10">Website</p>
+            <p className="text-[32px] font-[700] lg:text-center mb-10">
+              Website
+            </p>
             <div className="flex justify-center  mt-6 mb-8">
               <ScrollText text=" Get Noticed, Drive Traffic, and Boost Your Business." />{" "}
             </div>
           </div>
 
-          <p style={{ marginBottom: "3rem" }} className="mt-6 text-center">
+          <p style={{ marginBottom: "3rem" }} className="mt-6 lg:text-center">
             Welcome to Push &Pull, a web design company in Chennai is your
             one-stop shop for all your website needs. Whether you're looking to
             set up an e-commerce site, develop a dynamic website, or need

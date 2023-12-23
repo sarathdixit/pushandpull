@@ -25,7 +25,7 @@ const Creative = () => {
         className="relative z-10 bg-white pb-32"
         id="creativePage"
       >
-        <div className="mt-11 lg:hidden">
+        <div className="mt-[64px] lg:hidden">
           <MobileSection
             heading={"Creative"}
             description={
@@ -35,12 +35,12 @@ const Creative = () => {
         </div>
         <div className="px-8 md:container m-auto pt-10">
           <div className="hidden lg:block">
-            <p className="text-[32px] font-[700] text-center">Creative</p>
+            <p className="text-[32px] font-[700] lg:text-center">Creative</p>
             <div className="flex justify-center mb-16 mt-10">
               <ScrollText text="Stand Out in the Digital Crowd with Our Eye-Catching Graphics" />{" "}
             </div>
           </div>
-          <p style={{ marginBottom: "3rem" }} className="text-center">
+          <p style={{ marginBottom: "3rem" }} className="lg:text-center">
             To effectively convey a message to your target audience, graphic
             design is the art of producing visual information. Our team of
             skilled graphic designers specializes in producing captivating
@@ -253,7 +253,7 @@ const Creative = () => {
                 <div className="flex justify-center absolute -top-[90px] mt-6 w-[100%]">
                   <p className="bg-black text-white px-6 py-2">Photography</p>
                 </div>
-                <p className="text-center">
+                <p className="lg:text-center">
                   At Push and Pull, we offer professional and high-quality
                   photography services to cater to the diverse needs of our
                   clients. Our experienced team of photographers possesses the
@@ -377,7 +377,7 @@ const Creative = () => {
                     TVC (Television Commercial) Services
                   </p>
                 </div>
-                <p className="text-center">
+                <p className="lg:text-center">
                   Push and Pull is equipped to handle all aspects of TVC
                   production, from conceptualization to execution. We understand
                   the power of television commercials to convey your brand's
@@ -523,7 +523,7 @@ const Creative = () => {
                     Reels Services
                   </p>
                 </div>
-                <p className="text-center">
+                <p className="lg:text-center">
                   In today's digital landscape, short-form videos have become
                   helpful in interacting with and establishing a relationship
                   with your audience. Push and Pull offers comprehensive reels.

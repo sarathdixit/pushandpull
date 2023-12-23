@@ -44,12 +44,12 @@ export default function HomeHeader({
       <header
         className={`fixed z-20 w-full  ${getClassName()} ${header} transition-colors duration-500`}
       >
-        <div className="p-4 pb-0 !pt-[30px]  lg:!py-8 flex items-center justify-end lg:justify-between max-w-[1480px] m-auto ">
+        <div className="p-4 pb-0 !pt-[38px]  lg:!py-8 flex items-center justify-end lg:justify-between max-w-[1480px] m-auto ">
           <div className="relative hidden lg:block">
             <BrandingText heading={heading} hide={hide} />
           </div>
           <div
-            className={`!absolute left-4 lg:left-0 right-0 w-full flex lg:justify-center  `}
+            className={`!absolute left-5 lg:left-0 right-0 w-full flex lg:justify-center  `}
           >
             <Link href="/">
               <CustomImage

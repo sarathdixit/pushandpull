@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
+import MobileSection from "./mobile-section";
 
 const Testimonials = () => {
   const [index, setIndex] = useState(0);
@@ -20,7 +21,15 @@ const Testimonials = () => {
   };
   return (
     <>
-      <div>
+      <div className="lg:mt-[64px] lg:hidden mb-6">
+        <MobileSection
+          heading={"Hear from our partners"}
+          description={""}
+          hide={true}
+        />
+        <div className="h-[1px] bg-black w-[90%] m-auto mt-3" />
+      </div>
+      <div className="hidden lg:block">
         <div
           style={{
             borderBottom: "1px solid #000",
@@ -99,10 +108,14 @@ const Testimonials = () => {
         <Carousel.Item>
           <div className="grid grid-cols-1 lg:grid-cols-10 gap-4">
             <div className="col-span-2">
-              <img src="/assets/quoteImg.svg" alt="" />
+              <img
+                src="/assets/quoteImg.svg"
+                alt=""
+                className="w-[40px] h-[40px] lg:w-[80px] lg:h-[80px]"
+              />
             </div>
             <div
-              className="col-span-6 testiCenterCol "
+              className="col-span-6 testiCenterCol pt-[6px] lg:pt-[32px] "
               style={{ textAlign: "center", alignSelf: "center" }}
             >
               <p className="!font-neue !font-[500]">
@@ -127,10 +140,14 @@ const Testimonials = () => {
         <Carousel.Item>
           <div className="grid grid-cols-1 lg:grid-cols-10 gap-4">
             <div className="col-span-2">
-              <img src="/assets/quoteImg.svg" alt="" />
+              <img
+                src="/assets/quoteImg.svg"
+                alt=""
+                className="w-[40px] h-[40px] lg:w-[80px] lg:h-[80px]"
+              />
             </div>
             <div
-              className="col-span-6 testiCenterCol"
+              className="col-span-6 testiCenterCol pt-[6px] lg:pt-[32px]"
               style={{ textAlign: "center", alignSelf: "center" }}
             >
               <p className="!font-neue !font-[500]">
@@ -154,10 +171,14 @@ const Testimonials = () => {
         <Carousel.Item>
           <div className="grid grid-cols-1 lg:grid-cols-10 gap-4">
             <div className="col-span-2">
-              <img src="/assets/quoteImg.svg" alt="" />
+              <img
+                src="/assets/quoteImg.svg"
+                alt=""
+                className="w-[40px] h-[40px] lg:w-[80px] lg:h-[80px]"
+              />
             </div>
             <div
-              className="col-span-6 testiCenterCol"
+              className="col-span-6 testiCenterCol pt-[6px] lg:pt-[32px]"
               style={{ textAlign: "center", alignSelf: "center" }}
             >
               <p className="!font-neue !font-[500]">
@@ -176,6 +197,63 @@ const Testimonials = () => {
           </div>
         </Carousel.Item>
       </Carousel>
+      <div className="lg:hidden flex justify-center">
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+          }}
+        >
+          <svg
+            onClick={handlePrev}
+            style={{
+              border: "1px solid #000",
+              borderRadius: "50%",
+              padding: "3px",
+              marginRight: "15px",
+              cursor: "pointer",
+            }}
+            width="35"
+            height="35"
+            viewBox="0 0 35 35"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.9881 17.5565L23.625 25.1935L21.4435 27.375L11.625 17.5565L21.4435 7.73807L23.625 9.92115L15.9881 17.5581V17.5565Z"
+              fill="black"
+            />
+          </svg>
+
+          <div
+            style={{
+              borderBottom: "1px solid rgba(51, 51, 51, 0.50)",
+              height: "100%",
+              width: "50px",
+            }}
+          ></div>
+          <svg
+            onClick={handleNext}
+            style={{
+              border: "1px solid #000",
+              borderRadius: "50%",
+              padding: "3px",
+              marginLeft: "15px",
+              cursor: "pointer",
+            }}
+            width="35"
+            height="35"
+            viewBox="0 0 35 35"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M19.0119 17.5565L11.375 25.1935L13.5565 27.375L23.375 17.5565L13.5565 7.73807L11.375 9.92115L19.0119 17.5581V17.5565Z"
+              fill="black"
+            />
+          </svg>
+        </div>
+      </div>
     </>
   );
 };

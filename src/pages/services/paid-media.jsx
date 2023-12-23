@@ -25,7 +25,7 @@ const Creative = () => {
         className="relative z-10 bg-white pb-32"
         id="creativePage"
       >
-        <div className="mt-11 lg:hidden">
+        <div className="mt-[64px] lg:hidden">
           <MobileSection
             heading={" Paid Media"}
             description={
@@ -35,7 +35,7 @@ const Creative = () => {
         </div>
         <div className="px-8 md:container m-auto pt-10">
           <div className="hidden lg:block">
-            <p className="text-[32px] font-[700] text-center mb-10">
+            <p className="text-[32px] font-[700] lg:text-center mb-10">
               Paid Media
             </p>
             <div className="flex justify-center  mt-6 mb-8">
@@ -43,7 +43,7 @@ const Creative = () => {
             </div>
           </div>
 
-          <p style={{ marginBottom: "3rem" }} className="mt-6 text-center">
+          <p style={{ marginBottom: "3rem" }} className="mt-6 lg:text-center">
             Paid media is a successful technique to raise brand recognition,
             visibility, lead generation, and revenue. To assist you in achieving
             your marketing objectives, our team of professionals specializes in
@@ -169,7 +169,7 @@ const Creative = () => {
               </p>
             </div>
           </div>
-          <p className="text-center !mt-20">
+          <p className="lg:text-center !mt-20">
             Our goal at Push & Pull, a PPC agency in Chennai, is to maximize
             your investment's return while delivering measurable results. With
             years of paid media experience, our team of professionals knows how
@@ -178,7 +178,7 @@ const Creative = () => {
             collaborate closely with you to create a tailored plan that caters
             to your particular requirements.
           </p>
-          <p className="text-center mt-4">
+          <p className="lg:text-center mt-4">
             Are you prepared to use paid media to establish your brand further?
             Then, please make an appointment with our PPC advertising company
             right away. We're eager to hear from you!

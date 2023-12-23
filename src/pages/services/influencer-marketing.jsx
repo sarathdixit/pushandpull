@@ -22,7 +22,7 @@ const InfluencerMarketing = () => {
         }}
         className="relative z-10 bg-white pb-16"
       >
-        <div className="mt-11 lg:hidden">
+        <div className="mt-[64px] lg:hidden">
           <MobileSection
             heading={" Influencer Marketing"}
             description={
@@ -32,18 +32,18 @@ const InfluencerMarketing = () => {
         </div>
         <div className="container mt-[40px] lg:mt-10">
           <div className="hidden lg:block">
-            <p className="text-[32px] font-[700] text-center mb-10">
+            <p className="text-[32px] font-[700] lg:text-center mb-10">
               Influencer Marketing
             </p>
             <ScrollText text="Utilise Influencer Marketing to Expand Your Business and Get Noticed!" />
           </div>
 
-          <p className=" mb-4 text-center lg:mt-16">
+          <p className=" mb-4 lg:text-center lg:mt-16">
             In the current digital era, social media has become a potent tool
             for businesses to advertise their goods and services. Influencer
             marketing is one of the best strategies for accomplishing this.
           </p>
-          <p className="mt-6  mb-20 text-center">
+          <p className="mt-6  mb-20 lg:text-center">
             Influencer marketing is an advertising approach involving
             collaborating with people with a significant following on social
             media sites like Instagram, YouTube, and TikTok to promote your
@@ -64,20 +64,20 @@ const InfluencerMarketing = () => {
             </div>
           </div>
 
-          <p className="mt-20  mb-4 text-center">
+          <p className="mt-20  mb-4 lg:text-center">
             We at Push & Pull are experts in influencer marketing services and
             have a successful track record. We collaborate with our network of
             influencers across a range of markets and sectors to develop unique
             campaigns that support the goals and objectives of your business.
           </p>
-          <p className="mt-6  mb-4 text-center">
+          <p className="mt-6  mb-4 lg:text-center">
             Our industry professionals will collaborate with you to create a
             thorough influencer marketing strategy that involves choosing the
             appropriate influencers, creating exciting content, and gauging the
             campaign's effectiveness. We are dedicated to maximizing the return
             on your investment and delivering quantifiable outcomes.
           </p>
-          <p className="mt-6   mb-4 text-center">
+          <p className="mt-6   mb-4 lg:text-center">
             Are you ready to use influencer marketing to advance your brand? To
             arrange a meeting with one of our experts, get in touch with our
             marketing team right away. We anticipate hearing from you!

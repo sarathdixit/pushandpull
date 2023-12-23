@@ -32,7 +32,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="mt-11 lg:hidden">
+        <div className="mt-[64px] lg:hidden">
           <MobileSection
             heading={"About"}
             description={
@@ -51,7 +51,7 @@ const About = () => {
         </section>
 
         <section className="mt-20 pb-20 px-4 lg:px-0">
-          <p className="mt-6 max-w-[1020px] m-auto mb-4 text-center">
+          <p className="mt-6 max-w-[1020px] m-auto mb-4  lg:text-center font-helvetica">
             Welcome to Push & Pull, a dynamic digital marketing agency in
             Chennai, where creativity meets digital advertising and marketing
             innovation. We are a team of passionate and skilled marketers who
@@ -59,13 +59,13 @@ const About = () => {
             have the perfect pull-ution for your digital marketing needs,
             guaranteed to push your business to the forefront of your industry.
           </p>
-          <p className="mt-6 max-w-[1020px] m-auto mb-4 text-center">
+          <p className="mt-6 max-w-[1020px] m-auto mb-4 lg:text-center">
             Our goal is to provide strategic digital solutions to our clients
             that produce outcomes and promote success. For example, we can
             improve search engine rankings and increase organic traffic to your
             website with our cutting-edge digital marketing strategies.
           </p>
-          <p className="mt-6 max-w-[1020px] m-auto mb-4 text-center">
+          <p className="mt-6 max-w-[1020px] m-auto mb-4 lg:text-center">
             In digital marketing, we aspire to be the leading agency that
             delivers innovative, effective, and transformative solutions. But
             don't worry, we won't turn your business into a circus—unless that's

@@ -25,7 +25,7 @@ const Index = () => {
         className="relative z-10 bg-white pb-32"
         id="creativePage"
       >
-        <div className="mt-11 lg:hidden">
+        <div className="mt-[64px] lg:hidden">
           <MobileSection
             heading={" Search Engine Optimization"}
             description={" Boost Your Online Presence"}
@@ -33,14 +33,14 @@ const Index = () => {
         </div>
         <div className="px-8 md:container m-auto pt-10">
           <div className="hidden lg:block">
-            <p className="text-[32px] font-[700] text-center mb-10">
+            <p className="text-[32px] font-[700] lg:text-center mb-10">
               Search Engine Optimization
             </p>
             <div className="flex justify-center  mt-6 mb-8">
               <ScrollText text=" Boost Your Online Presence" />
             </div>
           </div>
-          <p style={{ marginBottom: "3rem" }} className="mt-6 text-center">
+          <p style={{ marginBottom: "3rem" }} className="mt-6 lg:text-center">
             Are you ready to elevate your online presence and dominate the
             digital landscape? Look no further than Push&Pull Digital Marketing!
             With our expert team and cutting-edge strategies, we're here to help
@@ -67,7 +67,7 @@ const Index = () => {
                 transition={{ duration: 1, delay: 1.5 }}
                 viewport={{ once: true }}
               ></motion.div>
-              <p className="w-[450px] md:order-first self-center text-justify flex-auto p-16">
+              <p className="w-[450px] md:order-first self-center text-justify flex-auto lg:p-16">
                 Uncover the keywords your target audience is searching for and
                 ensure your content aligns perfectly, driving organic traffic to
                 your website
@@ -99,7 +99,7 @@ const Index = () => {
                 transition={{ duration: 1, delay: 1.5 }}
                 viewport={{ once: true }}
               ></motion.div>
-              <p className="w-[450px] self-center text-justify flex-1 p-10">
+              <p className="w-[450px] self-center text-justify flex-1 lg:p-10">
                 We'll fine-tune your website's structure, meta tags, and content
                 to make sure search engines love what they see, resulting in
                 higher rankings.
@@ -128,7 +128,7 @@ const Index = () => {
               <motion.div
                 initial={{ height: 0 }}
                 whileInView={{ height: "auto" }}
-                className="w-[0.82px] bg-black"
+                className="w-[0.82px] bg-black hidden lg:block"
                 transition={{ duration: 1, delay: 1.5 }}
                 viewport={{ once: true }}
               ></motion.div>
@@ -156,7 +156,7 @@ const Index = () => {
               <motion.div
                 initial={{ height: 0 }}
                 whileInView={{ height: "auto" }}
-                className=" w-[0.82px] bg-black"
+                className=" w-[0.82px] bg-black hidden lg:block"
                 transition={{ duration: 1, delay: 1.5 }}
                 viewport={{ once: true }}
               ></motion.div>
@@ -187,7 +187,7 @@ const Index = () => {
               <motion.div
                 initial={{ height: 0 }}
                 whileInView={{ height: "auto" }}
-                className="w-[0.82px] bg-black"
+                className="w-[0.82px] bg-black hidden lg:block"
                 transition={{ duration: 1, delay: 1.5 }}
                 viewport={{ once: true }}
               ></motion.div>
@@ -249,11 +249,11 @@ const Index = () => {
               <motion.div
                 initial={{ height: 0 }}
                 whileInView={{ height: "auto" }}
-                className="w-[0.82px] bg-black"
+                className="w-[0.82px] bg-black hidden lg:block"
                 transition={{ duration: 1, delay: 1.5 }}
                 viewport={{ once: true }}
               ></motion.div>
-              <p className="w-[450px] md:order-first p-10 flex-1">
+              <p className="w-[450px] md:order-first lg:p-10 flex-1">
                 Stay informed with regular reports that outline your progress,
                 keyword rankings, and the impact of our SEO efforts.
               </p>
@@ -261,7 +261,7 @@ const Index = () => {
           </div>
         </div>
         <div className="px-8 md:container m-auto ">
-          <p className="text-[28px] font-[700] text-center mb-10 !my-20">
+          <p className="text-[28px] font-[700] lg:text-center mb-10 !my-20">
             Why Choose Push&Pull:
           </p>
 
@@ -345,11 +345,11 @@ const Index = () => {
               <motion.div
                 initial={{ height: 0 }}
                 whileInView={{ height: "auto" }}
-                className="w-[0.82px] bg-black"
+                className="w-[0.82px] bg-black hidden lg:block"
                 transition={{ duration: 1, delay: 1.5 }}
                 viewport={{ once: true }}
               ></motion.div>
-              <p className="w-[450px] md:order-first flex-1 p-10">
+              <p className="w-[450px] md:order-first flex-1 lg:p-10">
                 We understand that each business is unique. That's why we tailor
                 our strategies to fit your specific goals, industry, and target
                 audience.
@@ -377,11 +377,11 @@ const Index = () => {
               <motion.div
                 initial={{ height: 0 }}
                 whileInView={{ height: "auto" }}
-                className=" w-[0.82px] bg-black"
+                className=" w-[0.82px] bg-black hidden lg:block"
                 transition={{ duration: 1, delay: 1.5 }}
                 viewport={{ once: true }}
               ></motion.div>
-              <p className="w-[450px] flex-1 p-10">
+              <p className="w-[450px] flex-1 lg:p-10">
                 We believe in clear, open communication. You'll always know what
                 we're working on, the progress we've made, and the impact it's
                 having
@@ -389,10 +389,10 @@ const Index = () => {
             </div>
             {/* test */}
           </div>
-          <p className="text-center text-[30px] font-helvetica font-[700] pt-10">
+          <p className="lg:text-center text-[30px] font-helvetica font-[700] pt-10">
             Ready to Push Your SEO and Pull in Success?
           </p>
-          <p className="text-center font-helvetica mt-2">
+          <p className="lg:text-center font-helvetica mt-2">
             Don't let your competitors steal the spotlight. It's time to take
             control of your online destiny with Push&Pull Digital Marketing's
             SEO services. Contact us today to discuss how we can create a

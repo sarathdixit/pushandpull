@@ -25,7 +25,7 @@ const Index = () => {
         className="relative z-10 bg-white pb-32"
         id="creativePage"
       >
-        <div className="mt-11 lg:hidden">
+        <div className="mt-[64px] lg:hidden">
           <MobileSection
             heading={" Social Media Optimisation"}
             description={
@@ -35,7 +35,7 @@ const Index = () => {
         </div>
         <div className="px-8 md:container m-auto pt-10">
           <div className="hidden lg:block">
-            <p className="text-[32px] font-[700] text-center mb-10">
+            <p className="text-[32px] font-[700] lg:text-center mb-10">
               Social Media Optimisation
             </p>
             <div className="flex justify-center  mt-6 mb-8">
@@ -45,7 +45,7 @@ const Index = () => {
               />
             </div>
           </div>
-          <p style={{ marginBottom: "3rem" }} className="mt-6 text-center">
+          <p style={{ marginBottom: "3rem" }} className="mt-6 lg:text-center">
             Social media is a powerful tool for building brand awareness,
             engaging with customers, and driving conversions. Our team of
             experts specializes in social media optimization. It can help you
