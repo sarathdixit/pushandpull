@@ -8,7 +8,7 @@ export default function MobileSection({ heading, description, hide = false }) {
         <div className="!font-neue text-[24px] leading-[24px]">{heading}</div>
       </div>
       {!hide && (
-        <p className="!font-neue font-[400] tracking-[1.2px] text-[30px] max-w-[80%] m-auto !mt-10 text-center leading-[34.5px] spacing-[1.2px]">
+        <p className="!font-neue font-[500] tracking-[1.2px] text-[30px] max-w-[80%] m-auto !mt-10 text-center leading-[34.5px] spacing-[1.2px]">
           {description}
         </p>
       )}
